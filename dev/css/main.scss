@@ -678,9 +678,9 @@ body {
 
   @media (max-width: 767px) {
     text-align: center;
-   .online-text, .button {
-     max-width: 100%;
-   }
+    .online-text, .button {
+      max-width: 100%;
+    }
     .image {
       //margin: 0 auto;
       display: none;
@@ -823,8 +823,8 @@ body {
   @media (max-width: 768px) {
     iframe {
       height: 365px;
+    }
   }
-}
 
   @media (max-width: 767px) {
     text-align: center;
@@ -992,7 +992,7 @@ body {
       display: none;
     }
 
-  .money-title {
+    .money-title {
       max-width: 100%;
       margin-top: 0;
     }
@@ -1051,18 +1051,18 @@ body {
   }
 
   .card {
-       padding: 56px 42px;
-       background: #FFFFFF;
-       border: 5px solid #fff;
-       box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-       border-radius: 0;
-       max-width: 380px;
-       margin: 0 auto;
+    padding: 56px 42px;
+    background: #FFFFFF;
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+    border-radius: 0;
+    max-width: 380px;
+    margin: 0 auto;
 
     &:hover {
       transform: scale(1.1);
     }
-     }
+  }
 
   .card.action {
     border: 5px solid #F7BC2A;
@@ -1112,13 +1112,13 @@ body {
 
   ////media
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1320px) {
     .card .btn {
       padding: 12px 58px;
     }
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1320px) {
     .package-title {
       font-size: 34px;
       margin-bottom: 0;
@@ -1449,7 +1449,7 @@ body {
     .image {
       display: none;
     }
-      padding-top: 0;
+    padding-top: 0;
   }
 
   @media (max-width: 576px) {
@@ -1645,25 +1645,25 @@ body {
     }
   }
 
-  }
+}
 
-  //@media (max-width: 576px) {
-  //  .training-title {
-  //    font-size: 32px;
-  //  }
-  //}
-  //
-  //@media (max-width: 402px) {
-  //  .training-title {
-  //    font-size: 28px;
-  //  }
-  //}
-  //
-  //@media (max-width: 354px) {
-  //  .training-title {
-  //    line-height: 40px;
-  //  }
-  //}
+//@media (max-width: 576px) {
+//  .training-title {
+//    font-size: 32px;
+//  }
+//}
+//
+//@media (max-width: 402px) {
+//  .training-title {
+//    font-size: 28px;
+//  }
+//}
+//
+//@media (max-width: 354px) {
+//  .training-title {
+//    line-height: 40px;
+//  }
+//}
 
 ////////////////////////FOOTER END////////////////////////
 

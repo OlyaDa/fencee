@@ -758,10 +758,10 @@ body {
     border-radius: 7px; }
     .package .btn:hover {
       background: #F3A610; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1320px) {
     .package .card .btn {
       padding: 12px 58px; } }
-  @media (max-width: 1200px) {
+  @media (max-width: 1320px) {
     .package .package-title {
       font-size: 34px;
       margin-bottom: 0; }
