@@ -1,6 +1,17 @@
 
-$general_font_text: 'Bebas Neue', cursive;
+$general_font_text: 'Bebas Neue', sans-serif;
 $font_text: 'Open Sans', sans-serif;
+
+@import "http://fonts.fontstorage.com/import/bebasneue.css";
+
+//@font-face {
+//  font-family: 'Bebas Neue';
+//  src: url("../../public/fonts/BebasNeue-Regular.otf") format("otf"),
+//  //url("../../public/fonts/BebasNeue-Regular.woff") format("woff"),
+//  url("../../public/fonts/BebasNeue-Regular.ttf") format("truetype");
+//  font-weight: normal;
+//  font-style: normal;
+//}
 
 *{
   box-sizing: border-box;
@@ -23,6 +34,13 @@ body {
   display: table;
   content: '';
   clear: both;
+}
+
+.container-partners {
+  max-width: 1496px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-custom {
@@ -69,7 +87,6 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    align-items: center;
   }
 
   .logo {
@@ -130,8 +147,10 @@ body {
   height: 100vh;
   background: url("../../public/images/banner.png") center no-repeat;
   background-size: cover;
-  padding: 15% 0 0 10%;
+  padding: 3% 0 0 10%;
   position: relative;
+  display: flex;
+  align-items: center;
 
   .banner-title {
     font-family: $general_font_text;
@@ -141,7 +160,7 @@ body {
     line-height: 64px;
     color: #FFFFFF;
     margin-bottom: 16px;
-    max-width: 786px;
+    //max-width: 786px;
   }
   .banner-text {
     font-family: $font_text;
@@ -220,7 +239,7 @@ body {
 
 ////////////////////////STREAMING BEGIN////////////////////////
 .streaming {
-  background: url("../../public/images/bg-transl.png") center no-repeat;
+  background: url("../../public/images/bg-transl.png") center top no-repeat;
   background-size: cover;
   padding: 124px 0 136px 15%;
 
@@ -490,7 +509,7 @@ body {
     color: #FFFFFF;
     padding: 16px 40px;
     background: #F7BC2A;
-    box-shadow: 0px 4px 4px #E6AE22;
+    box-shadow: 0 4px 4px #E6AE22;
     border-radius: 7px;
     &:hover {
       background: #F3A610;
@@ -637,7 +656,7 @@ body {
     color: #FFFFFF;
     padding: 16px 18px;
     background: #F7BC2A;
-    box-shadow: 0px 4px 4px #E6AE22;
+    box-shadow: 0 4px 4px #E6AE22;
     border-radius: 7px;
     &:hover {
       background: #F3A610;
@@ -783,7 +802,7 @@ body {
     color: #FFFFFF;
     padding: 16px 18px;
     background: #F7BC2A;
-    box-shadow: 0px 4px 4px #E6AE22;
+    box-shadow: 0 4px 4px #E6AE22;
     border-radius: 7px;
     &:hover {
       background: #F3A610;
@@ -795,6 +814,9 @@ body {
   @media (max-width: 1024px) {
     .video-title {
       font-size: 37px;
+    }
+    .video-text.text-bottom.last {
+      margin-bottom: 50px;
     }
   }
 
@@ -849,3 +871,800 @@ body {
   }
 }
 ////////////////////////VIDEO END////////////////////////
+
+////////////////////////EQUIPMENT BEGIN////////////////////////
+.equipment {
+  padding: 120px 0 72px 0;
+
+  .equipment-title {
+    font-family: $general_font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 64px;
+    color: #3B2548;
+    margin-bottom: 54px;
+  }
+
+  .equipment-text {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 48px;
+  }
+
+  .image {
+    display: inline-block;
+    max-width: 72px;
+    max-height: 72px;
+    margin-bottom: 24px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  ////media
+
+  @media (max-width: 1024px) {
+    .equipment-title {
+      font-size: 37px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .equipment-title {
+      font-size: 32px;
+    }
+  }
+
+  @media (max-width: 402px) {
+    .equipment-title {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 354px) {
+    .equipment-title {
+      line-height: 40px;
+    }
+  }
+}
+////////////////////////EQUIPMENT END////////////////////////
+
+////////////////////////MONEY BEGIN////////////////////////
+.money {
+  margin-top: 100px;
+  padding-bottom: 120px;
+
+  .money-title {
+    font-family: $general_font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 64px;
+    color: #3B2548;
+    margin-bottom: 54px;
+    max-width: 585px;
+    margin-top: 140px;
+  }
+
+  .money-text {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 585px;
+  }
+
+
+  .image {
+    //max-width: 683px;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  ////media
+
+  @media (max-width: 1024px) {
+    margin-top: 0;
+    .money-title {
+      font-size: 37px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    text-align: center;
+    .image {
+      display: none;
+    }
+
+  .money-title {
+      max-width: 100%;
+      margin-top: 0;
+    }
+
+    .money-text {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .money-title {
+      font-size: 32px;
+    }
+  }
+
+  @media (max-width: 402px) {
+    .money-title {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 354px) {
+    .money-title {
+      line-height: 40px;
+    }
+  }
+}
+////////////////////////MONEY END////////////////////////
+
+////////////////////////PACKAGE BEGIN////////////////////////
+.package {
+  background: url("../../public/images/package.png") center no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+
+  .package-title {
+    font-family: $general_font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 64px;
+    color: #3B2548;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .package-text {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 32px;
+  }
+
+  .card {
+       padding: 56px 42px;
+       background: #FFFFFF;
+       border: 5px solid #fff;
+       box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+       border-radius: 0;
+       max-width: 380px;
+       margin: 0 auto;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+     }
+
+  .card.action {
+    border: 5px solid #F7BC2A;
+  }
+
+  .image {
+    display: inline-block;
+    max-width: 36px;
+    max-height: 36px;
+    margin-right: 32px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  ul {
+    margin-bottom: 48px;
+    li {
+      margin-bottom: 24px;
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+    }
+  }
+
+  .btn {
+    padding: 16px 77px;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F7BC2A;
+    box-shadow: 0 4px 4px #E6AE22;
+    border-radius: 7px;
+    &:hover {
+      background: #F3A610;
+    }
+  }
+
+  ////media
+
+  @media (max-width: 1200px) {
+    .card .btn {
+      padding: 12px 58px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .package-title {
+      font-size: 34px;
+      margin-bottom: 0;
+    }
+    .card .btn {
+      padding: 10px 27px;
+    }
+
+    .card {
+      padding: 20px 12px;
+    }
+
+    .image {
+      margin-right: 19px;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 992px) {
+    padding: 120px 0;
+  }
+
+  @media (max-width: 992px) {
+    padding: 140px 0;
+    .package-title {
+      font-size: 32px;
+      margin-bottom: 0;
+    }
+    .card .btn {
+      padding: 10px 27px;
+    }
+
+    .card {
+      padding: 10px 5px;
+    }
+
+    .image {
+      margin-right: 3px;
+    }
+
+    .package-text {
+      font-size: 13px;
+    }
+
+    ul li {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .card {
+      padding: 56px 42px;
+      max-width: 100%;
+      margin-bottom: 45px;
+      text-align: center;
+    }
+
+    .image {
+      margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .package-title {
+      font-size: 32px;
+    }
+  }
+
+
+  @media (max-width: 402px) {
+    .package-title {
+      font-size: 28px;
+    }
+    .card .btn {
+      padding: 5px 18px;
+    }
+  }
+
+  @media (max-width: 354px) {
+    .package-title {
+      line-height: 40px;
+    }
+  }
+}
+////////////////////////PACKAGE END////////////////////////
+
+////////////////////////TEAM BEGIN////////////////////////
+.team {
+  display: flex;
+  padding: 140px 0 280px 0;
+
+  .team-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .team-title {
+    font-family: $general_font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 64px;
+    text-align: center;
+    color: #3B2548;
+    margin-bottom: 56px;
+    max-width: 647px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image {
+    max-width: 240px;
+    max-height: 240px;
+    //margin: 0 auto;
+    margin: 0 20px 48px 20px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  ////media
+
+  @media (max-width: 1709px) {
+    .image {
+      max-width: 240px;
+      max-height: 240px;
+    }
+    .team-inner {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 0;
+    .team-title {
+      font-size: 37px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    padding: 120px 0 200px 0;
+  }
+
+  @media (max-width: 767px) {
+    .team-title {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .team-title {
+      font-size: 32px;
+    }
+  }
+
+  @media (max-width: 402px) {
+    .team-title {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 354px) {
+    .team-title {
+      line-height: 40px;
+    }
+  }
+}
+////////////////////////TEAM END////////////////////////
+
+////////////////////////PARTNERS BEGIN////////////////////////
+.partners {
+  padding-bottom: 45px;
+  display: flex;
+
+  .partners-title {
+    font-family: $general_font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 64px;
+    text-align: center;
+    color: #3B2548;
+    margin-bottom: 56px;
+  }
+
+  .partners-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .image {
+    max-width: 240px;
+    max-height: 240px;
+    margin: 0 26px 48px 26px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  ////media
+
+  @media (max-width: 1489px) {
+    .image {
+      max-width: 240px;
+      max-height: 240px;
+    }
+
+    .partners-inner {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 0;
+    .partners-title {
+      font-size: 37px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .partners-title {
+      font-size: 32px;
+    }
+  }
+
+  @media (max-width: 402px) {
+    .partners-title {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 354px) {
+    .partners-title {
+      line-height: 40px;
+    }
+  }
+}
+////////////////////////PARTNERS END////////////////////////
+
+////////////////////////TRAINING BEGIN////////////////////////
+.training {
+  padding-top: 120px;
+
+  .training-title {
+    font-family: $general_font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 64px;
+    color: #3B2548;
+    max-width: 506px;
+    margin-bottom: 32px;
+    margin-top: 55px;
+  }
+
+  .training-text.bold {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 506px;
+  }
+
+  .training-text {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 506px;
+  }
+
+  .image {
+    //max-width: 683px;
+    max-width: 729px;
+    margin-right: auto;
+    margin-left: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .btn {
+    padding: 16px 12px;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F7BC2A;
+    box-shadow: 0 4px 4px #E6AE22;
+    border-radius: 7px;
+    margin-top: 64px;
+    margin-bottom: 120px;
+    &:hover {
+      background: #F3A610;
+    }
+  }
+
+  ////media
+
+  @media (max-width: 1024px) {
+    .training-title {
+      font-size: 37px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    text-align: center;
+    .training-title, .training-text, .training-text.bold{
+      max-width: 100%;
+    }
+    .image {
+      display: none;
+    }
+      padding-top: 0;
+  }
+
+  @media (max-width: 576px) {
+    .training-title {
+      font-size: 32px;
+    }
+  }
+
+  @media (max-width: 402px) {
+    .training-title {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 354px) {
+    .training-title {
+      line-height: 40px;
+    }
+  }
+}
+////////////////////////TRAINING END////////////////////////
+
+////////////////////////FOOTER BEGIN////////////////////////
+.footer {
+  padding: 60px 0 56px 0;
+  background: #3B2548;
+  display: flex;
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .phone, .mail {
+    display: block;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+
+  .mail {
+    margin-bottom: 24px;
+  }
+
+  .instagram, .facebook {
+    margin-right: 32px;
+  }
+
+  input {
+    width: 240px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    display: block;
+    border: 1px solid #fff;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C6C4C6;
+    background-color: #3B2548;
+    margin-bottom: 8px;
+  }
+
+  textarea {
+    width: 240px;
+    max-height: 89px;
+    background-color: #3B2548;
+    margin-bottom: 16px;
+    display: block;
+    border: 1px solid #fff;
+    padding-top: 7px;
+    padding-left: 16px;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C6C4C6;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  }
+
+  .form-title {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+  }
+
+  .btn {
+    padding: 16px 57px;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F7BC2A;
+    box-shadow: 0 4px 4px #E6AE22;
+    border-radius: 7px;
+    &:hover {
+      background: #F3A610;
+    }
+  }
+
+  .image {
+    display: inline-block;
+    max-width: 36px;
+    max-height: 36px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  ////media
+
+  @media (max-width: 1080px) {
+    .instagram, .facebook {
+      margin-right: 10px;
+    }
+
+    input, textarea {
+      width: 220px;
+    }
+
+    .btn {
+      padding: 16px 45px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    iframe {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 945px) {
+    iframe {
+      width: 375px;
+    }
+    .btn {
+      padding: 16px 17px;
+    }
+
+    input, textarea {
+      width: 160px;
+    }
+    a {
+      font-size: 13px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    text-align: center;
+
+    .footer-inner {
+      flex-direction: column;
+    }
+
+    .social-icons {
+      margin-bottom: 45px;
+    }
+
+    iframe {
+      margin-bottom: 45px;
+      width: 100%;
+    }
+
+    input, textarea {
+      width: 240px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    a {
+      font-size: 16px;
+    }
+  }
+
+  }
+
+  //@media (max-width: 576px) {
+  //  .training-title {
+  //    font-size: 32px;
+  //  }
+  //}
+  //
+  //@media (max-width: 402px) {
+  //  .training-title {
+  //    font-size: 28px;
+  //  }
+  //}
+  //
+  //@media (max-width: 354px) {
+  //  .training-title {
+  //    line-height: 40px;
+  //  }
+  //}
+
+////////////////////////FOOTER END////////////////////////
+
+
