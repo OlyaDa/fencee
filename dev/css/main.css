@@ -159,7 +159,7 @@ body {
 
 .streaming {
   background: url("../../public/images/bg-transl.png") center top no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 124px 0 136px 15%; }
   .streaming .streaming-title {
     font-family: "Bebas Neue", sans-serif;
@@ -200,8 +200,7 @@ body {
         margin-bottom: 30px; } }
   @media (max-width: 576px) {
     .streaming {
-      padding: 82px 0;
-      background-size: cover; }
+      padding: 82px 0; }
       .streaming .streaming-title {
         line-height: 26px;
         font-size: 26px; } }

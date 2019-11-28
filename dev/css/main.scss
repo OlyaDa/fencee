@@ -237,7 +237,7 @@ body {
 ////////////////////////STREAMING BEGIN////////////////////////
 .streaming {
   background: url("../../public/images/bg-transl.png") center top no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 124px 0 136px 15%;
 
   .streaming-title {
@@ -295,7 +295,6 @@ body {
 
   @media (max-width: 576px) {
     padding: 82px 0;
-    background-size: cover;
 
     .streaming-title {
       line-height: 26px;
