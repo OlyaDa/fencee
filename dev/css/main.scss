@@ -215,24 +215,22 @@ body {
     }
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 767px) {
     .banner-title {
       font-size: 32px;
+      line-height: 42px;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .banner-title {
       margin-top: 80px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
-  @media (max-width: 402px) {
-    .banner-title {
-      font-size: 28px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .banner-title {
-      line-height: 40px;
-    }
-  }
 }
 ////////////////////////BANNER END////////////////////////
 
@@ -299,21 +297,11 @@ body {
     padding: 82px 0;
 
     .streaming-title {
-      font-size: 32px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
-  @media (max-width: 402px) {
-    .streaming-title {
-      font-size: 28px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .streaming-title {
-      line-height: 40px;
-    }
-  }
 }
 ////////////////////////STREAMING END////////////////////////
 
@@ -432,7 +420,8 @@ body {
 
   @media (max-width: 576px) {
     .event-title {
-      font-size: 32px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
@@ -443,17 +432,8 @@ body {
   }
 
   @media (max-width: 402px) {
-    .event-title {
-      font-size: 28px;
-    }
     .card .btn {
       padding: 5px 18px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .event-title {
-      line-height: 40px;
     }
   }
 }
@@ -605,7 +585,8 @@ body {
 
   @media (max-width: 576px) {
     .check-list-title {
-      font-size: 32px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
@@ -634,18 +615,12 @@ body {
   }
 
   @media (max-width: 402px) {
-    .check-list-title {
-      font-size: 28px;
-    }
     .card .btn {
       padding: 5px 18px;
     }
   }
 
   @media (max-width: 354px) {
-    .check-list-title {
-      line-height: 40px;
-    }
     .btn {
       padding: 11px 22px;
     }
@@ -764,19 +739,8 @@ body {
 
   @media (max-width: 576px) {
     .online-title {
-      font-size: 32px;
-    }
-  }
-
-  @media (max-width: 402px) {
-    .online-title {
-      font-size: 28px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .online-title {
-      line-height: 40px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 }
@@ -942,7 +906,8 @@ body {
 
   @media (max-width: 576px) {
     .video-title {
-      font-size: 32px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
@@ -970,23 +935,12 @@ body {
     }
   }
 
-  @media (max-width: 402px) {
-    .video-title {
-      font-size: 28px;
-    }
-  }
-
   @media (max-width: 360px) {
     .image {
       left: 10%;
     }
   }
 
-  @media (max-width: 354px) {
-    .video-title {
-      line-height: 40px;
-    }
-  }
 }
 ////////////////////////VIDEO END////////////////////////
 
@@ -1048,19 +1002,8 @@ body {
 
   @media (max-width: 576px) {
     .equipment-title {
-      font-size: 32px;
-    }
-  }
-
-  @media (max-width: 402px) {
-    .equipment-title {
-      font-size: 28px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .equipment-title {
-      line-height: 40px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 }
@@ -1137,21 +1080,11 @@ body {
 
   @media (max-width: 576px) {
     .money-title {
-      font-size: 32px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
-  @media (max-width: 402px) {
-    .money-title {
-      font-size: 28px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .money-title {
-      line-height: 40px;
-    }
-  }
 }
 ////////////////////////MONEY END////////////////////////
 
@@ -1333,25 +1266,18 @@ body {
 
   @media (max-width: 576px) {
     .package-title {
-      font-size: 32px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
 
   @media (max-width: 402px) {
-    .package-title {
-      font-size: 28px;
-    }
     .card .btn {
       padding: 5px 18px;
     }
   }
 
-  @media (max-width: 354px) {
-    .package-title {
-      line-height: 40px;
-    }
-  }
 
   ////
 
@@ -1479,19 +1405,8 @@ body {
 
   @media (max-width: 576px) {
     .team-title {
-      font-size: 32px;
-    }
-  }
-
-  @media (max-width: 402px) {
-    .team-title {
-      font-size: 28px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .team-title {
-      line-height: 40px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 }
@@ -1566,21 +1481,11 @@ body {
 
   @media (max-width: 576px) {
     .partners-title {
-      font-size: 32px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
-  @media (max-width: 402px) {
-    .partners-title {
-      font-size: 28px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .partners-title {
-      line-height: 40px;
-    }
-  }
 }
 ////////////////////////PARTNERS END////////////////////////
 
@@ -1682,21 +1587,11 @@ body {
 
   @media (max-width: 576px) {
     .training-title {
-      font-size: 32px;
+      line-height: 26px;
+      font-size: 26px;
     }
   }
 
-  @media (max-width: 402px) {
-    .training-title {
-      font-size: 28px;
-    }
-  }
-
-  @media (max-width: 354px) {
-    .training-title {
-      line-height: 40px;
-    }
-  }
 }
 ////////////////////////TRAINING END////////////////////////
 

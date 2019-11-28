@@ -146,16 +146,16 @@ body {
         text-align: center; }
       .banner .banner-text {
         max-width: 100%; } }
-  @media (max-width: 576px) {
+  @media (max-width: 767px) {
     .banner .banner-title {
       font-size: 32px;
-      margin-top: 80px; } }
-  @media (max-width: 402px) {
+      line-height: 42px;
+      margin-bottom: 30px; } }
+  @media (max-width: 576px) {
     .banner .banner-title {
-      font-size: 28px; } }
-  @media (max-width: 354px) {
-    .banner .banner-title {
-      line-height: 40px; } }
+      margin-top: 80px;
+      line-height: 26px;
+      font-size: 26px; } }
 
 .streaming {
   background: url("../../public/images/bg-transl.png") center top no-repeat;
@@ -202,13 +202,8 @@ body {
     .streaming {
       padding: 82px 0; }
       .streaming .streaming-title {
-        font-size: 32px; } }
-  @media (max-width: 402px) {
-    .streaming .streaming-title {
-      font-size: 28px; } }
-  @media (max-width: 354px) {
-    .streaming .streaming-title {
-      line-height: 40px; } }
+        line-height: 26px;
+        font-size: 26px; } }
 
 .event {
   padding: 140px 0; }
@@ -288,18 +283,14 @@ body {
         margin-bottom: 30px; } }
   @media (max-width: 576px) {
     .event .event-title {
-      font-size: 32px; } }
+      line-height: 26px;
+      font-size: 26px; } }
   @media (max-width: 428px) {
     .event .card {
       width: 100%; } }
   @media (max-width: 402px) {
-    .event .event-title {
-      font-size: 28px; }
     .event .card .btn {
       padding: 5px 18px; } }
-  @media (max-width: 354px) {
-    .event .event-title {
-      line-height: 40px; } }
 
 .check-list {
   padding: 140px 0;
@@ -398,7 +389,8 @@ body {
       left: 4%; } }
   @media (max-width: 576px) {
     .check-list .check-list-title {
-      font-size: 32px; } }
+      line-height: 26px;
+      font-size: 26px; } }
   @media (max-width: 573px) {
     .check-list .check-list-text .image {
       left: 0%; } }
@@ -412,13 +404,9 @@ body {
     .check-list .card {
       width: 100%; } }
   @media (max-width: 402px) {
-    .check-list .check-list-title {
-      font-size: 28px; }
     .check-list .card .btn {
       padding: 5px 18px; } }
   @media (max-width: 354px) {
-    .check-list .check-list-title {
-      line-height: 40px; }
     .check-list .btn {
       padding: 11px 22px; } }
 
@@ -500,13 +488,8 @@ body {
         margin-bottom: 60px; } }
   @media (max-width: 576px) {
     .online .online-title {
-      font-size: 32px; } }
-  @media (max-width: 402px) {
-    .online .online-title {
-      font-size: 28px; } }
-  @media (max-width: 354px) {
-    .online .online-title {
-      line-height: 40px; } }
+      line-height: 26px;
+      font-size: 26px; } }
 
 .video .video-title {
   font-family: "Bebas Neue", sans-serif;
@@ -613,7 +596,8 @@ body {
       margin-bottom: 30px; } }
 @media (max-width: 576px) {
   .video .video-title {
-    font-size: 32px; } }
+    line-height: 26px;
+    font-size: 26px; } }
 @media (max-width: 670px) {
   .video .image {
     left: 28%; } }
@@ -626,15 +610,9 @@ body {
 @media (max-width: 424px) {
   .video .image {
     left: 16%; } }
-@media (max-width: 402px) {
-  .video .video-title {
-    font-size: 28px; } }
 @media (max-width: 360px) {
   .video .image {
     left: 10%; } }
-@media (max-width: 354px) {
-  .video .video-title {
-    line-height: 40px; } }
 
 .equipment {
   padding: 120px 0 72px 0; }
@@ -675,13 +653,8 @@ body {
         margin-bottom: 30px; } }
   @media (max-width: 576px) {
     .equipment .equipment-title {
-      font-size: 32px; } }
-  @media (max-width: 402px) {
-    .equipment .equipment-title {
-      font-size: 28px; } }
-  @media (max-width: 354px) {
-    .equipment .equipment-title {
-      line-height: 40px; } }
+      line-height: 26px;
+      font-size: 26px; } }
 
 .money {
   margin-top: 100px;
@@ -732,13 +705,8 @@ body {
         max-width: 100%; } }
   @media (max-width: 576px) {
     .money .money-title {
-      font-size: 32px; } }
-  @media (max-width: 402px) {
-    .money .money-title {
-      font-size: 28px; } }
-  @media (max-width: 354px) {
-    .money .money-title {
-      line-height: 40px; } }
+      line-height: 26px;
+      font-size: 26px; } }
 
 .package {
   background: url("../../public/images/package.png") center no-repeat;
@@ -858,15 +826,11 @@ body {
         margin-bottom: 30px; } }
   @media (max-width: 576px) {
     .package .package-title {
-      font-size: 32px; } }
+      line-height: 26px;
+      font-size: 26px; } }
   @media (max-width: 402px) {
-    .package .package-title {
-      font-size: 28px; }
     .package .card .btn {
       padding: 5px 18px; } }
-  @media (max-width: 354px) {
-    .package .package-title {
-      line-height: 40px; } }
   @media (max-width: 767px) {
     .package ul {
       padding-left: 13%; }
@@ -945,13 +909,8 @@ body {
         margin: 0 20px 30px 20px; } }
   @media (max-width: 576px) {
     .team .team-title {
-      font-size: 32px; } }
-  @media (max-width: 402px) {
-    .team .team-title {
-      font-size: 28px; } }
-  @media (max-width: 354px) {
-    .team .team-title {
-      line-height: 40px; } }
+      line-height: 26px;
+      font-size: 26px; } }
 
 .partners {
   padding-bottom: 45px;
@@ -998,13 +957,8 @@ body {
         margin: 0 20px 30px 20px; } }
   @media (max-width: 576px) {
     .partners .partners-title {
-      font-size: 32px; } }
-  @media (max-width: 402px) {
-    .partners .partners-title {
-      font-size: 28px; } }
-  @media (max-width: 354px) {
-    .partners .partners-title {
-      line-height: 40px; } }
+      line-height: 26px;
+      font-size: 26px; } }
 
 .training {
   padding-top: 120px; }
@@ -1077,13 +1031,8 @@ body {
         margin-bottom: 60px; } }
   @media (max-width: 576px) {
     .training .training-title {
-      font-size: 32px; } }
-  @media (max-width: 402px) {
-    .training .training-title {
-      font-size: 28px; } }
-  @media (max-width: 354px) {
-    .training .training-title {
-      line-height: 40px; } }
+      line-height: 26px;
+      font-size: 26px; } }
 
 .footer {
   padding: 60px 0 56px 0;
