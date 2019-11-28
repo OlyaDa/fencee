@@ -1207,9 +1207,11 @@ body {
     }
   }
 
-  //@media (max-width: 992px) {
-  //  padding: 120px 0;
-  //}
+  @media (max-width: 1023px) {
+    ul li {
+      font-size: 12px;
+    }
+  }
 
   @media (max-width: 992px) {
     padding: 120px 0;
@@ -1603,7 +1605,7 @@ body {
 
   .footer-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .phone, .mail {
@@ -1834,6 +1836,12 @@ body {
   @media (max-width: 430px) {
     padding: 30px;
     max-width: 100%;
+  }
+}
+
+#popup2 {
+  input[type="tel"] {
+    margin-bottom: 32px;
   }
 }
 ////////////////////////POPUP END////////////////////////
