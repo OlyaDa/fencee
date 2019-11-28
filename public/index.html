@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Stream" />
+    <meta property="og:description"
+          content="Stream предоставляет онлайн трансляцию мероприятий, технические возможности и аппаратуру, органицацию
+          интернет трансляций, помощь в принятии онлайн-оплаты, защиту  трансляции от копирования и исключение
+          возможности перепродажи"/>
+    <meta property="og:image" content="<?php bloginfo(template_url);?>/img/logo.img">
+    <meta property="og:url" content="https://teleport-plus.com/" />
+    <meta property="og:site_name" content="teleport-plus" />
     <title>Stream</title>
 
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -34,7 +43,7 @@
                     </a>
                 </div>
                 <div class="phone">
-                    <a href="tel:8(495)215-03-39" class="mobile">+38 (063) 955 33 68</a>
+                    <a href="tel:+380639553368" class="mobile">+38 (063) 955 33 68</a>
                 </div>
             </div>
         </div>
@@ -52,7 +61,7 @@
                         Транслируем HD- видео с безупречным звуком. Проведем онлайн трансляцию любого  мероприятия "Под Ключ"
                     </p>
                     <div class="button">
-                        <a class="btn popup-link" href="#">Расчитать стоимость</a>
+                        <a class="btn popup-link" href="#popup">Расчитать стоимость</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +105,7 @@
                             <div class="card-footer text-center">
                                 <p class="card-text text-center">Мастер-класс Обучающие курсы</p>
                                 <div class="button">
-                                    <a class="btn popup-link" href="#">Заказать</a>
+                                    <a class="btn popup-link" href="#popup">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +121,7 @@
                             <div class="card-footer text-center">
                                 <p class="card-text text-center">Спортивные мероприятия,  соревнования</p>
                                 <div class="button">
-                                    <a class="btn popup-link" href="#">Заказать</a>
+                                    <a class="btn popup-link" href="#popup">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +137,7 @@
                             <div class="card-footer text-center">
                                 <p class="card-text text-center">Концерты и театральные  выступления</p>
                                 <div class="button">
-                                    <a class="btn popup-link" href="#">Заказать</a>
+                                    <a class="btn popup-link" href="#popup">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +153,7 @@
                             <div class="card-footer text-center">
                                 <p class="card-text text-center">Презентации  проектов и продуктов</p>
                                 <div class="button">
-                                    <a class="btn popup-link" href="#">Заказать</a>
+                                    <a class="btn popup-link" href="#popup">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +173,7 @@
                             <div class="card-footer text-center">
                                 <p class="card-text text-center">Живые события <br> Репортажи</p>
                                 <div class="button">
-                                    <a class="btn popup-link" href="#">Заказать</a>
+                                    <a class="btn popup-link" href="#popup">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +190,7 @@
                                 <p class="card-text text-center">Розыгрыши призов, шоу,  конкурсы
                                 </p>
                                 <div class="button">
-                                    <a class="btn popup-link" href="#">Заказать</a>
+                                    <a class="btn popup-link" href="#popup">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -197,7 +206,7 @@
                             <div class="card-footer text-center">
                                 <p class="card-text text-center">Корпоративные трансляции</p>
                                 <div class="button">
-                                    <a class="btn popup-link" href="#">Заказать</a>
+                                    <a class="btn popup-link" href="#popup">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +222,7 @@
                             <div class="card-footer text-center">
                                 <p class="card-text text-center">Государственные  мероприятия, Госзаказ</p>
                                 <div class="button">
-                                    <a class="btn popup-link" href="#">Заказать</a>
+                                    <a class="btn popup-link" href="#popup">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -265,9 +274,33 @@
                             </li>
                         </ul>
 
+                        <!--/////pop-up-->
                         <div class="button">
-                            <a class="btn popup-link" href="#"> Скачать чек-лист </a>
+                            <a class="btn popup-link" href="#popup"> Скачать чек-лист </a>
                         </div>
+
+                        <div id="popup" class="mfp-hide popup">
+                            <form class="order-main">
+                                <h4 class="form-title text-center">
+                                    <span id="customTextForm">
+                                        Заполните форму и получите  бесплатно чек-лист на почту
+                                    </span>
+                                </h4>
+                                <label for="name">Укажите ваше имя</label>
+                                <input id="name" placeholder="Имя" type="text" name="name" required>
+
+                                <label for="phone">Укажите ваш телефон</label>
+                                <input id="phone" placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
+
+                                <label for="email">Укажите ваш email</label>
+                                <input id="email" placeholder="E-mail" type="text" name="email" required>
+
+                                <button class="btn disbutt" disabled>
+                                    <span>СКАЧАТЬ</span>
+                                </button>
+                            </form>
+                        </div>
+                        <!--/////pop-up end-->
                     </div>
                 </div>
             </div>
@@ -319,7 +352,7 @@
                             Оставьте заявку для просчета стоимости
                         </p>
                         <div class="button text-center">
-                            <a class="btn popup-link" href="#"> Рассчитать стоимость </a>
+                            <a class="btn popup-link" href="#popup"> Рассчитать стоимость </a>
                         </div>
                     </div>
                 </div>
@@ -381,7 +414,7 @@
                             <p class="cinema-text">Это пример тарифа "Стандарт"</p>
                             <p class="video-sub-text">Получите просчет стоимости  для вашего мероприятия</p>
                             <div class="button">
-                                <a class="btn popup-link" href="#"> Рассчитать стоимость </a>
+                                <a class="btn popup-link" href="#popup"> Рассчитать стоимость </a>
                             </div>
                         </div>
                     </div>
@@ -435,7 +468,7 @@
                             <p class="cinema-text">Это пример тарифа "Стандарт"</p>
                             <p class="video-sub-text">Получите просчет стоимости  для вашего мероприятия</p>
                             <div class="button">
-                                <a class="btn popup-link" href="#"> Рассчитать стоимость </a>
+                                <a class="btn popup-link" href="#popup"> Рассчитать стоимость </a>
                             </div>
                         </div>
                     </div>
@@ -489,7 +522,7 @@
                             <p class="cinema-text">Это пример тарифа "Стандарт"</p>
                             <p class="video-sub-text">Получите просчет стоимости  для вашего мероприятия</p>
                             <div class="button">
-                                <a class="btn popup-link" href="#"> Рассчитать стоимость </a>
+                                <a class="btn popup-link" href="#popup"> Рассчитать стоимость </a>
                             </div>
                         </div>
                     </div>
@@ -653,7 +686,7 @@
                                 Для бюджетных мероприятий стоимостью 5000 грн "Под ключ”
                             </p>
                             <div class="button text-center">
-                                <a class="btn popup-link" href="#"> Заказать </a>
+                                <a class="btn popup-link" href="#popup"> Заказать </a>
                             </div>
                         </div>
                     </div>
@@ -681,7 +714,7 @@
                                 Для бюджетных мероприятий стоимостью 5000 грн "Под ключ”
                             </p>
                             <div class="button text-center">
-                                <a class="btn popup-link" href="#"> Заказать </a>
+                                <a class="btn popup-link" href="#popup"> Заказать </a>
                             </div>
                         </div>
                     </div>
@@ -709,7 +742,7 @@
                                 Для бюджетных мероприятий стоимостью 5000 грн "Под ключ”
                             </p>
                             <div class="button text-center">
-                                <a class="btn popup-link" href="#"> Заказать </a>
+                                <a class="btn popup-link" href="#popup"> Заказать </a>
                             </div>
                         </div>
                     </div>
@@ -737,7 +770,7 @@
                                 Для бюджетных мероприятий стоимостью 5000 грн "Под ключ”
                             </p>
                             <div class="button text-center">
-                                <a class="btn popup-link" href="#"> Заказать </a>
+                                <a class="btn popup-link" href="#popup"> Заказать </a>
                             </div>
                         </div>
                     </div>
@@ -844,7 +877,7 @@
                             Закажите бесплатную консультацию нашего специалиста
                         </p>
                         <div class="button">
-                            <a class="btn popup-link" href="#"> Заказать консультацию</a>
+                            <a class="btn popup-link" href="#popup"> Заказать консультацию</a>
                         </div>
                     </div>
                 </div>
@@ -890,12 +923,12 @@
 
                 <!--</div>-->
                 <!--<div class="col-lg-3 offset-lg-1 col-md-3">-->
-                <form action="">
+                <form class="order-main">
                     <h4 class="form-title">
                         Остались вопросы?
                     </h4>
-                    <input placeholder="Имя" type="text">
-                    <input placeholder="Телефон" type="number" class="phoneidcl" required>
+                    <input placeholder="Имя" type="text" name="name" required>
+                    <input placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
                     <textarea placeholder="Введите комментарий"></textarea>
                     <button class="btn disbutt" disabled>
                         <span>Задать вопрос</span>
@@ -915,9 +948,11 @@
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 <!-- Popper -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"-->
+        <!--integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"-->
+        <!--crossorigin="anonymous"></script>-->
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
 <!-- Fontawesome -->
 <script defer src="js/all.js"></script>
 <!-- Bootstrap -->
