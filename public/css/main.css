@@ -62,19 +62,18 @@ body {
     .header .logo img {
       width: 100%;
       height: auto; }
-  .header .logo-mobile {
-    display: none; }
   .header .mobile {
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 42px;
     line-height: 64px;
-    color: #3B2548; }
+    color: #FFFFFF; }
     .header .mobile:hover {
       text-decoration: none; }
   .header .phone {
-    margin-top: 15px; }
+    margin-top: 15px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); }
   @media (max-width: 576px) {
     .header .logo {
       width: 150px; }
@@ -82,11 +81,7 @@ body {
       margin-top: 7px; }
     .header .mobile {
       font-size: 28px;
-      color: #fff; }
-    .header .logo-mobile {
-      display: inline-block; }
-    .header .logo-desktop {
-      display: none; } }
+      color: #fff; } }
   @media (max-width: 402px) {
     .header .mobile {
       font-size: 22px; } }
@@ -1121,10 +1116,14 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 16px; }
+    .footer .phone:hover, .footer .mail:hover {
+      text-decoration: none; }
   .footer .mail {
     margin-bottom: 24px; }
   .footer .instagram, .footer .facebook {
     margin-right: 32px; }
+  .footer .instagram:hover, .footer .facebook:hover, .footer .youtube:hover {
+    text-decoration: none; }
   .footer input {
     width: 240px;
     padding-top: 7px;

@@ -87,17 +87,13 @@ body {
     }
   }
 
-  .logo-mobile {
-    display: none;
-  }
-
   .mobile {
     font-family: $general_font_text;
     font-style: normal;
     font-weight: normal;
     font-size: 42px;
     line-height: 64px;
-    color: #3B2548;
+    color: #FFFFFF;
     &:hover {
       text-decoration: none;
     }
@@ -105,6 +101,7 @@ body {
 
   .phone {
     margin-top: 15px;
+    text-shadow: 4px 4px 10px rgba(0,0,0,.25)
   }
   ////media
 
@@ -120,14 +117,6 @@ body {
     .mobile {
       font-size: 28px;
       color: #fff;
-    }
-
-    .logo-mobile {
-      display: inline-block;
-    }
-
-    .logo-desktop {
-      display: none;
     }
   }
 
@@ -1653,6 +1642,9 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 16px;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .mail {
@@ -1661,6 +1653,12 @@ body {
 
   .instagram, .facebook {
     margin-right: 32px;
+  }
+
+  .instagram, .facebook, .youtube {
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   input {
