@@ -143,7 +143,7 @@ body {
 ////////////////////////BANNER BEGIN////////////////////////
 .banner {
   height: 100vh;
-  background: url("../../public/images/banner.png") center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3) 100%), url("../../public/images/banner.png") center no-repeat;
   background-size: cover;
   //padding: 3% 0 0 10%;
   position: relative;
@@ -266,12 +266,15 @@ body {
       font-size: 37px;
     }
   }
+  @media (max-width: 992px) {
+    padding: 70px 0;
+  }
 
   @media (max-width: 768px) {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 130px 0;
+    padding: 70px 0;
 
     .streaming-inner {
       text-align: center;
@@ -315,7 +318,7 @@ body {
     line-height: 64px;
     text-align: center;
     color: #3B2548;
-    margin-bottom: 72px;
+    margin-bottom: 35px;
   }
 
   .card {
@@ -397,9 +400,12 @@ body {
   }
 
   @media (max-width: 992px) {
-    padding: 120px 0;
+    padding: 70px 0;
     .card .btn {
       padding: 10px 38px;
+    }
+    .event-title {
+      margin-bottom: 20px;
     }
   }
 
@@ -442,7 +448,7 @@ body {
 
 ////////////////////////CHECK LIST BEGIN////////////////////////
 .check-list {
-  padding: 120px 0;
+  padding: 120px 0 70px 0;
   background: url("../../public/images/grey-fon.png") center no-repeat;
   background-size: cover;
   position: relative;
@@ -454,7 +460,7 @@ body {
     font-size: 42px;
     line-height: 64px;
     color: #3B2548;
-    margin-bottom: 70px;
+    margin-bottom: 45px;
   }
 
   .image-big {
@@ -536,15 +542,18 @@ body {
   }
 
   @media (max-width: 992px) {
-    padding: 120px 0;
+    padding: 70px 0;
     .card .btn {
       padding: 10px 38px;
+    }
+    .check-list-title {
+      margin-bottom: 15px;
     }
   }
 
   @media (max-width: 767px) {
     .image-big {
-      display: none;
+      left: 60%;
     }
     text-align: center;
     ul {
@@ -642,7 +651,7 @@ body {
     font-size: 42px;
     line-height: 64px;
     color: #3B2548;
-    margin-bottom: 54px;
+    margin-bottom: 45px;
   }
 
   .online-text {
@@ -656,7 +665,7 @@ body {
   }
 
   .online-text.bottom-text {
-    margin-bottom: 140px;
+    margin-bottom: 50px;
   }
 
   .online-text.bold {
@@ -682,13 +691,10 @@ body {
     }
   }
 
-  .wi-fi {
-    margin-left: auto;
-  }
-
-  .calculator {
-    margin-right: auto;
-  }
+  //.wi-fi {
+  //  margin-left: auto;
+  //}
+  //
 
   .button {
     max-width: 478px;
@@ -720,9 +726,16 @@ body {
   }
 
   @media (max-width: 992px) {
-    padding-top: 120px;
-    margin-bottom: 154px;
+    padding-top: 70px;
+    margin-bottom: 70px;
   }
+
+  @media (max-width: 768px) {
+  .calculator {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
   @media (max-width: 767px) {
     text-align: center;
@@ -730,9 +743,9 @@ body {
     .online-text, .button {
       max-width: 100%;
     }
-    .image {
-      display: none;
-    }
+    //.image {
+    //  display: none;
+    //}
 
     padding: 60px 0;
 
@@ -766,7 +779,7 @@ body {
     font-size: 42px;
     line-height: 64px;
     color: #3B2548;
-    margin-bottom: 56px;
+    margin-bottom: 45px;
   }
 
   .video-text {
@@ -780,11 +793,11 @@ body {
   }
 
   .video-text.text-bottom {
-    margin-bottom: 120px;
+    margin-bottom: 70px;
   }
 
   .video-text.text-bottom.last {
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
 
   iframe {
@@ -956,7 +969,7 @@ body {
 
 ////////////////////////EQUIPMENT BEGIN////////////////////////
 .equipment {
-  padding: 120px 0 0 0;
+  //padding: 120px 0 0 0;
 
   .equipment-title {
     font-family: $general_font_text;
@@ -1000,8 +1013,7 @@ body {
   }
 
   @media (max-width: 767px) {
-    padding: 60px 0;
-
+    padding-top: 15px;
     .equipment-title {
       font-size: 32px;
       line-height: 42px;
@@ -1067,6 +1079,10 @@ body {
     }
   }
 
+  @media (max-width: 992px) {
+    padding-bottom: 70px;
+  }
+
   @media (max-width: 768px) {
     .money-title {
       margin-bottom: 15px;
@@ -1075,9 +1091,9 @@ body {
 
   @media (max-width: 767px) {
     text-align: center;
-    .image {
-      display: none;
-    }
+    //.image {
+    //  display: none;
+    //}
 
     .money-title {
       max-width: 100%;
@@ -1236,7 +1252,7 @@ body {
   }
 
   @media (max-width: 992px) {
-    padding: 120px 0;
+    padding: 70px 0;
     .package-title {
       font-size: 32px;
       margin-bottom: 0;
@@ -1356,7 +1372,7 @@ body {
 ////////////////////////TEAM BEGIN////////////////////////
 .team {
   display: flex;
-  padding: 120px 0 100px 0;
+  padding: 120px 0 50px 0;
 
   .team-inner {
     display: flex;
@@ -1373,7 +1389,7 @@ body {
     line-height: 64px;
     text-align: center;
     color: #3B2548;
-    margin-bottom: 56px;
+    margin-bottom: 45px;
     max-width: 647px;
     margin-left: auto;
     margin-right: auto;
@@ -1411,7 +1427,7 @@ body {
   }
 
   @media (max-width: 992px) {
-    padding: 120px 0 200px 0;
+    padding: 70px 0 30px 0;
   }
 
   @media (max-width: 767px) {
@@ -1451,12 +1467,11 @@ body {
     line-height: 64px;
     text-align: center;
     color: #3B2548;
-    margin-bottom: 56px;
+    margin-bottom: 45px;
   }
 
   .partners-inner {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -1518,7 +1533,7 @@ body {
 
 ////////////////////////TRAINING BEGIN////////////////////////
 .training {
-  padding-top: 72px;
+  padding-top: 42px;
 
   .training-title {
     font-family: $general_font_text;
@@ -1529,7 +1544,7 @@ body {
     color: #3B2548;
     //max-width: 506px;
     margin-bottom: 32px;
-    margin-top: 55px;
+    margin-top: 22px;
   }
 
   .training-text.bold {
@@ -1590,13 +1605,18 @@ body {
     }
   }
 
+  @media (max-width: 992px) {
+    padding-top: 0;
+  }
+
   @media (max-width: 767px) {
     text-align: center;
     .training-title, .training-text, .training-text.bold{
       max-width: 100%;
     }
     .image {
-      display: none;
+      margin-left: auto;
+      margin-right: auto;
     }
     padding-top: 0;
 
