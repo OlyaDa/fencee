@@ -218,12 +218,14 @@ body {
     background: #FFFFFF;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
     border: none;
-    border-radius: 0; }
+    border-radius: 0;
+    height: 100%; }
     .event .card .card-body {
       padding: 0; }
     .event .card .card-footer {
       background-color: #fff;
-      padding: 16px 0 23px 0; }
+      padding: 16px 0 23px 0;
+      border: none; }
     .event .card .card-text {
       max-width: 210px;
       font-family: "Open Sans", sans-serif;
@@ -274,7 +276,8 @@ body {
       padding: 60px 0; }
       .event .card {
         width: 55%;
-        margin: 0 auto 40px; }
+        margin: 0 auto 40px;
+        height: 90%; }
       .event .event-title {
         font-size: 32px;
         line-height: 42px;

@@ -334,6 +334,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
     border: none;
     border-radius: 0;
+    height: 100%;
 
     .card-body {
       padding: 0;
@@ -342,6 +343,7 @@ body {
     .card-footer {
       background-color: #fff;
       padding: 16px 0 23px 0;
+      border: none;
     }
 
     .card-text {
@@ -417,6 +419,7 @@ body {
     .card {
       width: 55%;
       margin: 0 auto 40px;
+      height: 90%;
     }
     padding: 60px 0;
 
