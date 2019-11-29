@@ -36,33 +36,22 @@ body {
   clear: both;
 }
 
-.container-partners {
-  max-width: 1496px;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container-custom {
-  max-width: 1550px;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container-video {
-  max-width: 1439px;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .container {
-  max-width: 1722px;
+  max-width: 1200px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 1250px) {
+  .container {
+    max-width: 980px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
 .row {
   margin-left: -15px;
@@ -98,6 +87,10 @@ body {
     }
   }
 
+  .logo-mobile {
+    display: none;
+  }
+
   .mobile {
     font-family: $general_font_text;
     font-style: normal;
@@ -110,6 +103,9 @@ body {
     }
   }
 
+  .phone {
+    margin-top: 15px;
+  }
   ////media
 
   @media (max-width: 576px) {
@@ -117,8 +113,21 @@ body {
       width: 150px;
     }
 
+    .phone {
+      margin-top: 7px;
+    }
+
     .mobile {
       font-size: 28px;
+      color: #fff;
+    }
+
+    .logo-mobile {
+      display: inline-block;
+    }
+
+    .logo-desktop {
+      display: none;
     }
   }
 
@@ -147,7 +156,7 @@ body {
   height: 100vh;
   background: url("../../public/images/banner.png") center no-repeat;
   background-size: cover;
-  padding: 3% 0 0 10%;
+  //padding: 3% 0 0 10%;
   position: relative;
   display: flex;
   align-items: center;
@@ -238,7 +247,7 @@ body {
 .streaming {
   background: url("../../public/images/bg-transl.png") center top no-repeat;
   background-size: cover;
-  padding: 124px 0 136px 15%;
+  padding: 120px 0;
 
   .streaming-title {
     font-family: $general_font_text;
@@ -307,7 +316,7 @@ body {
 
 ////////////////////////EVENT BEGIN////////////////////////
 .event {
-  padding: 140px 0;
+  padding: 120px 0;
 
   .event-title {
     font-family: $general_font_text;
@@ -348,7 +357,7 @@ body {
     }
 
     .btn {
-      padding: 16px 77px;
+      padding: 16px 58px;
       font-family: $font_text;
       font-style: normal;
       font-weight: bold;
@@ -441,7 +450,7 @@ body {
 
 ////////////////////////CHECK LIST BEGIN////////////////////////
 .check-list {
-  padding: 140px 0;
+  padding: 120px 0;
   background: url("../../public/images/grey-fon.png") center no-repeat;
   background-size: cover;
   position: relative;
@@ -461,6 +470,7 @@ body {
     max-width: 680px;
     top: -40%;
     right: 0;
+    left: -8px;
 
     img {
       width: 100%;
@@ -504,7 +514,7 @@ body {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-    padding: 16px 40px;
+    padding: 16px 58px;
     background: #F7BC2A;
     box-shadow: 0 4px 4px #E6AE22;
     border-radius: 7px;
@@ -630,8 +640,8 @@ body {
 
 ////////////////////////ONLINE BEGIN////////////////////////
 .online {
-  padding-top: 154px;
-  margin-bottom: 240px;
+  padding-top: 120px;
+  margin-bottom: 120px;
 
   .online-title {
     font-family: $general_font_text;
@@ -671,13 +681,21 @@ body {
 
   .image {
     max-width: 400px;
-    margin-right: auto;
-    margin-left: auto;
+    ////margin-right: auto;
+    //margin-left: auto;
 
     img {
       width: 100%;
       height: auto;
     }
+  }
+
+  .wi-fi {
+    margin-left: auto;
+  }
+
+  .calculator {
+    margin-right: auto;
   }
 
   .button {
@@ -770,11 +788,11 @@ body {
   }
 
   .video-text.text-bottom {
-    margin-bottom: 140px;
+    margin-bottom: 120px;
   }
 
   .video-text.text-bottom.last {
-    margin-bottom: 120px;
+    margin-bottom: 0;
   }
 
   iframe {
@@ -854,9 +872,9 @@ body {
     .video-title {
       font-size: 37px;
     }
-    .video-text.text-bottom.last {
-      margin-bottom: 50px;
-    }
+    //.video-text.text-bottom.last {
+    //  margin-bottom: 50px;
+    //}
   }
 
   @media (max-width: 768px) {
@@ -880,9 +898,9 @@ body {
       margin-bottom: 50px;
     }
 
-    .video-text.text-bottom.last {
-      margin-bottom: 50px;
-    }
+    //.video-text.text-bottom.last {
+    //  margin-bottom: 50px;
+    //}
 
     ul {
       padding-left: 9%;
@@ -946,7 +964,7 @@ body {
 
 ////////////////////////EQUIPMENT BEGIN////////////////////////
 .equipment {
-  padding: 120px 0 72px 0;
+  padding: 120px 0 0 0;
 
   .equipment-title {
     font-family: $general_font_text;
@@ -1011,7 +1029,7 @@ body {
 
 ////////////////////////MONEY BEGIN////////////////////////
 .money {
-  margin-top: 100px;
+  margin-top: 58px;
   padding-bottom: 120px;
 
   .money-title {
@@ -1022,8 +1040,8 @@ body {
     line-height: 64px;
     color: #3B2548;
     margin-bottom: 54px;
-    max-width: 585px;
-    margin-top: 140px;
+    //max-width: 585px;
+    margin-top: 60px;
   }
 
   .money-text {
@@ -1033,14 +1051,14 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    max-width: 585px;
+    //max-width: 585px;
   }
 
 
   .image {
     max-width: 400px;
     margin-right: auto;
-    margin-left: auto;
+    //margin-left: auto;
 
     img {
       width: 100%;
@@ -1054,6 +1072,12 @@ body {
     margin-top: 0;
     .money-title {
       font-size: 37px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .money-title {
+      margin-bottom: 15px;
     }
   }
 
@@ -1092,7 +1116,7 @@ body {
 .package {
   background: url("../../public/images/package.png") center no-repeat;
   background-size: cover;
-  padding: 140px 0;
+  padding: 120px 0;
   overflow: hidden;
 
   .package-title {
@@ -1102,7 +1126,7 @@ body {
     font-size: 42px;
     line-height: 64px;
     color: #3B2548;
-    margin-bottom: 48px;
+    margin-bottom: 22px;
     text-align: center;
   }
 
@@ -1118,7 +1142,7 @@ body {
   }
 
   .card {
-    padding: 56px 42px;
+    padding: 56px 27px;
     background: #FFFFFF;
     border: 5px solid #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
@@ -1149,7 +1173,7 @@ body {
   }
 
   ul {
-    margin-bottom: 48px;
+    margin-bottom: 22px;
     li {
       margin-bottom: 24px;
       font-family: $font_text;
@@ -1162,7 +1186,7 @@ body {
   }
 
   .btn {
-    padding: 16px 77px;
+    padding: 16px 58px;
     font-family: $font_text;
     font-style: normal;
     font-weight: bold;
@@ -1204,6 +1228,12 @@ body {
     }
     ul {
       margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .card {
+      padding: 20px 6px;
     }
   }
 
@@ -1334,12 +1364,13 @@ body {
 ////////////////////////TEAM BEGIN////////////////////////
 .team {
   display: flex;
-  padding: 140px 0 280px 0;
+  padding: 120px 0 100px 0;
 
   .team-inner {
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .team-title {
@@ -1360,6 +1391,7 @@ body {
     max-width: 240px;
     max-height: 240px;
     margin: 0 20px 48px 20px;
+    //margin: 0 0 48px 0;
 
     img {
       width: 100%;
@@ -1416,7 +1448,7 @@ body {
 
 ////////////////////////PARTNERS BEGIN////////////////////////
 .partners {
-  padding-bottom: 45px;
+  padding-bottom: 0;
   display: flex;
 
   .partners-title {
@@ -1434,12 +1466,13 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .image {
     max-width: 240px;
     max-height: 240px;
-    margin: 0 26px 48px 26px;
+    margin: 0 20px 48px 20px;
 
     img {
       width: 100%;
@@ -1493,7 +1526,7 @@ body {
 
 ////////////////////////TRAINING BEGIN////////////////////////
 .training {
-  padding-top: 120px;
+  padding-top: 72px;
 
   .training-title {
     font-family: $general_font_text;
@@ -1502,7 +1535,7 @@ body {
     font-size: 42px;
     line-height: 64px;
     color: #3B2548;
-    max-width: 506px;
+    //max-width: 506px;
     margin-bottom: 32px;
     margin-top: 55px;
   }
@@ -1514,7 +1547,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    max-width: 506px;
+    //max-width: 506px;
   }
 
   .training-text {
@@ -1524,13 +1557,13 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    max-width: 506px;
+    //max-width: 506px;
   }
 
   .image {
     max-width: 729px;
     margin-right: auto;
-    margin-left: auto;
+    //margin-left: auto;
 
     img {
       width: 100%;
@@ -1550,8 +1583,8 @@ body {
     background: #F7BC2A;
     box-shadow: 0 4px 4px #E6AE22;
     border-radius: 7px;
-    margin-top: 64px;
-    margin-bottom: 120px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     &:hover {
       background: #F3A610;
     }

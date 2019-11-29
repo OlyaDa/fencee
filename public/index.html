@@ -36,8 +36,11 @@
         <div class="container">
             <div class="header-inner">
                 <div class="logo">
-                    <a href="#">
+                    <a href="#" class="logo-desktop">
                         <img src="images/logo.png" alt="logo">
+                    </a>
+                    <a href="#" class="logo-mobile">
+                        <img src="images/logo2.png" alt="logo">
                     </a>
                 </div>
                 <div class="phone">
@@ -272,56 +275,9 @@
                             </li>
                         </ul>
 
-                        <!--/////pop-up-->
                         <div class="button">
-                            <a class="btn popup-link" href="#popup"> Скачать чек-лист </a>
+                            <a class="btn popup-link" href="#popup"> Заказать </a>
                         </div>
-
-                        <div id="popup" class="mfp-hide popup">
-                            <form class="order-main">
-                                <h4 class="form-title text-center">
-                                    <span id="customTextForm">
-                                        Заполните форму и получите  бесплатно чек-лист на почту
-                                    </span>
-                                </h4>
-                                <label for="name">Укажите ваше имя</label>
-                                <input id="name" placeholder="Имя" type="text" name="name" required>
-
-                                <label for="phone">Укажите ваш телефон</label>
-                                <input id="phone" placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
-
-                                <label for="email">Укажите ваш email</label>
-                                <input id="email" placeholder="E-mail" type="text" name="email" required>
-                                <input name="order" type="hidden" id="input_order">
-
-                                <button class="btn disbutt" disabled>
-                                    <span>СКАЧАТЬ</span>
-                                </button>
-                            </form>
-                        </div>
-
-                        <div id="popup2" class="mfp-hide popup">
-                            <form class="order-main">
-                                <h4 class="form-title text-center">
-                                    <span id="customTextForm2">
-                                        Заполните форму и получите  бесплатно чек-лист на почту
-                                    </span>
-                                </h4>
-                                <label for="name2">Укажите ваше имя</label>
-                                <input id="name2" placeholder="Имя" type="text" name="name" required>
-
-                                <label for="phone2">Укажите ваш телефон</label>
-                                <input id="phone2" placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
-                                <input name="order" type="hidden" id="input_order2">
-                                <!--<label for="email2">Укажите ваш email</label>-->
-                                <!--<input id="email2" placeholder="E-mail" type="text" name="email" required>-->
-
-                                <button class="btn disbutt" disabled>
-                                    <span>СКАЧАТЬ</span>
-                                </button>
-                            </form>
-                        </div>
-                        <!--/////pop-up end-->
                     </div>
                 </div>
             </div>
@@ -347,16 +303,16 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 text-right">
-                        <div class="image">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="image wi-fi">
                             <img src="images/wi-fi.png" alt="">
                         </div>
                     </div>
                 </div>
                 <!--row-->
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 text-right">
-                        <div class="image">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="image calculator">
                             <img src="images/calculator.png" alt="">
                         </div>
                     </div>
@@ -407,7 +363,7 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-3 col-md-4">
+                    <div class="col-lg-4 col-md-4">
                         <p class="cinema-text">
                             В мероприятии было задействовано
                         </p>
@@ -461,7 +417,7 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 ">
+                    <div class="col-lg-4 col-md-4">
                         <p class="cinema-text">
                             В мероприятии было задействовано
                         </p>
@@ -515,7 +471,7 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-3 col-md-4">
+                    <div class="col-lg-4 col-md-4">
                         <p class="cinema-text">
                             В мероприятии было задействовано
                         </p>
@@ -832,7 +788,7 @@
         <!--.......................PARTNERS.......................-->
 
         <div class="partners">
-            <div class="container-partners">
+            <div class="container">
                 <h2 class="partners-title">
                     Компании которым мы настраивали онлайн - трансляцию
                 </h2>
@@ -876,7 +832,7 @@
         <section class="training">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 align-self-end">
                         <div class="image">
                             <img src="images/sony.png" alt="">
                         </div>
@@ -945,7 +901,7 @@
                     </h4>
                     <input placeholder="Имя" type="text" name="name" required>
                     <input placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
-                    <input name="order" type="hidden" value="Футер">
+                    <input name="order" type="hidden" value="Остались вопросы?">
                     <textarea placeholder="Введите комментарий"></textarea>
                     <button class="btn disbutt" disabled>
                         <span>Задать вопрос</span>
@@ -955,6 +911,53 @@
 
         </div>
     </footer>
+
+    <!--/////pop-up-->
+    <div id="popup" class="mfp-hide popup">
+        <form class="order-main">
+            <h4 class="form-title text-center">
+                <span id="customTextForm">
+                    Заполните форму и получите  бесплатно чек-лист на почту
+                </span>
+            </h4>
+            <label for="name">Укажите ваше имя</label>
+            <input id="name" placeholder="Имя" type="text" name="name" required>
+
+            <label for="phone">Укажите ваш телефон</label>
+            <input id="phone" placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
+
+            <label for="email">Укажите ваш email</label>
+            <input id="email" placeholder="E-mail" type="text" name="email" required>
+            <input name="order" type="hidden" id="input_order">
+
+            <button class="btn disbutt" disabled>
+                <span>ОТПРАВИТЬ</span>
+            </button>
+        </form>
+    </div>
+
+    <div id="popup2" class="mfp-hide popup">
+        <form class="order-main">
+            <h4 class="form-title text-center">
+                                    <span id="customTextForm2">
+                                        Заполните форму и получите  бесплатно чек-лист на почту
+                                    </span>
+            </h4>
+            <label for="name2">Укажите ваше имя</label>
+            <input id="name2" placeholder="Имя" type="text" name="name" required>
+
+            <label for="phone2">Укажите ваш телефон</label>
+            <input id="phone2" placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
+            <input name="order" type="hidden" id="input_order2">
+            <!--<label for="email2">Укажите ваш email</label>-->
+            <!--<input id="email2" placeholder="E-mail" type="text" name="email" required>-->
+
+            <button class="btn disbutt" disabled>
+                <span>ОТПРАВИТЬ</span>
+            </button>
+        </form>
+    </div>
+    <!--/////pop-up end-->
 
 </div>
 
