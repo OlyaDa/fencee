@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Stream" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Fence"/>
     <meta property="og:description"
-          content="Stream предоставляет онлайн трансляцию мероприятий, технические возможности и аппаратуру, организацию интернет трансляций, помощь в принятии онлайн-оплаты, защиту  трансляции от копирования и исключение возможности перепродажи"/>
+          content=""/>
     <meta property="og:image" content="<?php bloginfo(template_url);?>/img/logo.img">
-    <meta property="og:url" content="https://teleport-plus.com/" />
-    <meta property="og:site_name" content="teleport-plus" />
-    <title>Stream</title>
+    <meta property="og:url" content="https://teleport-plus.com/"/>
+    <meta property="og:site_name" content="teleport-plus"/>
+    <title>Fence</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap"
+          rel="stylesheet">
 
-
-    <!--<link rel="stylesheet" href="css/owl.carousel.min.css">-->
-    <!--<link rel="stylesheet" href="css/owl.theme.default.min.css">-->
-    <!--<link rel="stylesheet" href="css/slick.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>-->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -34,34 +34,95 @@
 
     <header class="header">
         <div class="container">
-            <div class="header-inner">
-                <div class="logo">
-                    <a href="#" class="logo-desktop">
-                        <img src="images/logo2.png" alt="logo">
-                    </a>
+            <div class="header__inner">
+                <div class="top">
+                    <div class="logo-address">
+                        <div class="logo">
+                            <a href="#">
+                                BauGroups
+                            </a>
+                        </div>
+                        <div class="address">
+                            <p> КАМЕНСКОЕ</p>
+                        </div>
+                    </div>
+
+
+                    <span class="toggle-menu">
+                        <span></span>
+                    </span>
                 </div>
-                <div class="phone">
-                    <a href="tel:+380639553368" class="mobile">+38 (063) 955 33 68</a>
-                </div>
+
+                <nav class="main-nav">
+                    <ul class=" menu list-reset">
+                        <li><a href="#about" class="nav-link-new">О нас</a></li>
+                        <li><a href="#products" class="nav-link-new">Изделия</a></li>
+                        <li><a href="#gallery" class="nav-link-new">Отзывы</a></li>
+                        <li><a href="#contact" class="nav-link-new">Контакты</a></li>
+                        <li class="phone">
+                            <a href="tel:+380638442311" class="phone-link nav-link-new ">+38 (097) 278-52-96 </a>
+                            <div class="button">
+                                <div class="btn">Получить консультацию</div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
 
     <!--.......................BANNER.......................-->
+
     <div class="banner">
         <div class="container">
             <div class="banner-inner">
-                <div class="banner-body">
-                    <h2 class="banner-title">
-                        ОРГАНИЗУЕМ ОНЛАЙН - ТРАНСЛЯЦИЮ ВАШЕГО  МЕРОПРИЯТИЯ
+
+                <div class="captions">
+                    <h2 class="caption">
+                        ПРОИЗВОДСТВО И МОНТАЖ ДЕКОРАТИВНЫХ
+
+                        БЕТОННЫХ ЗАБОРОВ И ИЗДЕЛИЙ ПОД КЛЮЧ
                     </h2>
-                    <p class="banner-text">
-                        Транслируем HD - видео с безупречным звуком. Проведем онлайн трансляцию любого  мероприятия "Под Ключ"
-                    </p>
-                    <div class="button">
-                        <a class="btn popup-link" href="#popup2">Расчитать стоимость</a>
+                    <h3 class="sub-caption">
+                        ИНДИВИДУАЛЬНЫЙ ПОДХОД И ГАРАНТИЯ 10 ЛЕТ
+                    </h3>
+                </div>
+                <div class="inner">
+                    <div class="circles">
+                        <div class="circles-holder">
+                            <div class="item">
+                                <div class="circle circle2">
+                                    <span class="icon-fence2"></span>
+                                </div>
+                                <p class="text text-uppercase text-center">БЕТОННЫЕ ЗАБОРЫ</p>
+                            </div>
+                            <div class="item">
+                                <div class="circle circle2">
+                                    <span class="icon-fance1"></span>
+                                </div>
+                                <p class="text text-uppercase text-center">СТОЛБЫ РАБИЦА</p>
+                            </div>
+                            <div class="item">
+                                <div class="circle circle2">
+                                    <span class="icon-vase"></span>
+                                </div>
+                                <p class="text text-uppercase text-center">ДЕКОРАТИВНЫЕ ИЗДЕЛИЯ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="order">
+                        <p class="order-text">
+                            Закажите просчет стоимость и получите БЕСПЛАТНУЮ консультацию прямо сейчас
+                        </p>
+                        <div class="button">
+                            <a href="#popup" class="btn popup-link">
+                                Получить
+                            </a>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -69,917 +130,761 @@
     <!--.......................MAIN.......................-->
 
     <main class="content">
-        <!--.......................STREAMING.......................-->
-        <div class="streaming">
+
+        <!--.......................WHY.......................-->
+
+        <section class="why">
             <div class="container">
-                <div class="streaming-inner">
-                    <h2 class="streaming-title text-uppercase">
-                        Онлайн - трансляцию вашего мероприятия увидят тысяча новых зрителей
-                    </h2>
-                    <p class="streaming-text">
-                        Обычное дело: 84 человек пришли на лекцию в живую, а еще 2 300 человек смотрят лекцию онлайн.
-                        Трансляция видео на сайт, это самый эффективный способ увеличит охват аудитории на лекциях, форумах,
-                        семинарах и тренингах. Перестаньте игнорировать людей из других городов и стран. Транслируйте свои
-                        мысли на весь мир
-                    </p>
-                </div>
-            </div>
-        </div>
+                <h4 class="caption">
+                    ПОЧЕМУ СТОИТ ВЫБРАТЬ НАШУ КОМПАНИЮ
+                </h4>
 
-        <!--.......................EVENT.......................-->
-
-        <section class="event">
-            <div class="container">
-                <h2 class="event-title text-uppercase">Какое  у  вас  мероприятие? <br> Выберите  и  закажите  бесплатную  консультацию</h2>
-
-                <div class="row first-row">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="image">
-                                    <img src="images/event1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <p class="card-text text-center">Мастер-класс Обучающие курсы</p>
-                                <div class="button">
-                                    <a class="btn popup-link" href="#popup2">Заказать</a>
-                                </div>
-                            </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="image-video">
+                            <img src="images/video.png" alt="video">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=kXYiU_JCYtU">
+                                <i class="fas fa-play"></i>
+                            </a>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <div class="cards">
+                            <div class="d-flex justify-content-sm-between">
+                                <div class="card-cust">
+                                    <div class="title">
+                                        <span class="icon-carpenter"></span>
+                                        <p>Собственное производство</p>
+                                    </div>
+                                    <p class="text"> Позволяет выполнять заказы любой сложности и под любой объект</p>
+                                </div>
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="image">
-                                    <img src="images/event2.png" alt="">
+                                <div class="card-cust">
+                                    <div class="title">
+                                        <span class="icon-entrance"></span>
+                                        <p>Европейские Материалы </p>
+                                    </div>
+                                    <p class="text"> Высокое качество материалов повышает долговечность готовых
+                                        конструкций</p>
                                 </div>
                             </div>
-                            <div class="card-footer text-center">
-                                <p class="card-text text-center">Спортивные мероприятия,  соревнования</p>
-                                <div class="button">
-                                    <a class="btn popup-link" href="#popup2">Заказать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="image">
-                                    <img src="images/event3.png" alt="">
+                            <div class="d-flex justify-content-sm-between">
+                                <div class="card-cust">
+                                    <div class="title">
+                                        <span class="icon-individual"></span>
+                                        <p>Индивидуальный подход</p>
+                                    </div>
+                                    <p class="text">Выполняем работы любой сложности по вашему макету</p>
                                 </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <p class="card-text text-center">Концерты и театральные  выступления</p>
-                                <div class="button">
-                                    <a class="btn popup-link" href="#popup2">Заказать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="image">
-                                    <img src="images/event4.png" alt="">
+                                <div class="card-cust">
+                                    <div class="title">
+                                        <span class="icon-document"></span>
+                                        <p>Гарантия 10 лет</p>
+                                    </div>
+                                    <p class="text">Предоставляем гарантию на все виды изделий</p>
                                 </div>
                             </div>
-                            <div class="card-footer text-center">
-                                <p class="card-text text-center">Презентации  проектов и продуктов</p>
-                                <div class="button">
-                                    <a class="btn popup-link" href="#popup2">Заказать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!--row-->
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="image">
-                                    <img src="images/event5.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <p class="card-text text-center">Особый случай</p>
-                                <div class="button">
-                                    <a class="btn popup-link" href="#popup2">Заказать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="image">
-                                    <img src="images/event6.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <p class="card-text text-center"> Живые события Репортажи Розыгрыши призов, шоу, конкурсы
-                                </p>
-                                <div class="button">
-                                    <a class="btn popup-link" href="#popup2">Заказать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="image">
-                                    <img src="images/event7.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <p class="card-text text-center">Корпоративные трансляции</p>
-                                <div class="button">
-                                    <a class="btn popup-link" href="#popup2">Заказать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="image">
-                                        <img src="images/event8.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <p class="card-text text-center">Государственные  мероприятия, Госзаказ</p>
-                                <div class="button">
-                                    <a class="btn popup-link" href="#popup2">Заказать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!--.......................CHECK LIST.......................-->
-
-        <section class="check-list">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-6 mb-4 mb-md-0">
-                        <div class="image-big">
-                            <img src="images/chek-list.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <h2 class="check-list-title text-uppercase">
-                            Бесплатный чек-лист по  организации трансляции
-                        </h2>
-                        <ul  class="check-list-text list-reset">
-                            <li>
-                                <div class="image">
-                                    <img src="images/tick.png" alt="">
-                                </div>
-                                4 типичные ошибки организации мероприятий
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/tick.png" alt="">
-                                </div>
-                                3 простых способа увеличить количество зрителей
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/tick.png" alt="">
-                                </div>
-                                Технические советы по организации видео-трансляции
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/tick.png" alt="">
-                                </div>
-                                3 примера блестящих онлайн - трансляций
-                            </li>
-                        </ul>
-
-                        <div class="button">
-                            <a class="btn popup-link" href="#popup"> Заказать </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--.......................ONLINE.......................-->
+        <!--.......................MODELS.......................-->
 
-        <section class="online">
+        <!--............CONCRETE (бетонные звборы)..............-->
+
+        <section class="concrete">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 order-2 order-lg-1 order-md-1">
-                        <h2 class="online-title text-uppercase">
-                            10 000 зрителей онлайн для нас обычная задача
-                        </h2>
-                        <p class="online-text">
-                            Организовывая потоковую передачу видео, мы используем широкополый интернет и дублируем линии
-                            связи для подстраховки
-                        </p>
-                        <p class="online-text bottom-text">
-                            <b>Качество нашей работы</b> - красивое видео с хорошим звуком Без обрывов связи и недоразумений.
-                            Кодеки для сжатия потокового видео SHW-3000 позволяют добиться идеальной картинки без
-                            видимых потерь качества, а наш плеер можно забронировать
-                        </p>
-                    </div>
+                <h4 class="caption">
+                    ВСЕ ИЗДЕЛИЯ ИЗГОТОВЛЕНЫ СОГЛАСНО ГОСТУ
+                </h4>
 
-                    <div class="col-md-4 order-1 order-md-2 col-6 mb-4 mb-md-0">
-                        <div class="image wi-fi">
-                            <img src="images/wi-fi.png" alt="">
+                <div class="row d-flex">
+                    <div class="col-lg-6 d-flex justify-content-sm-between flex-column">
+                        <div>
+                            <p class="title">
+                                БЕТОННЫЕ ЕВРОЗАБОРЫ
+                            </p>
+
+                            <p>
+                                Заборы железобетонные используются для ограждения територий. По конфигурации делятся на
+                                секционные и наборные. Изготавливаются из бетона, укрепленного арматурой.
+                            </p>
+
+                            <p>
+                                Дополнительная услуга по покраске заборов*
+                                <br>
+                                *-уточняйте у менеджера
+                            </p>
                         </div>
-                    </div>
-                </div>
-                <!--row-->
-                <div class="row justify-content-center">
-                    <div class="col-md-4 mb-4 mb-md-0 col-6">
-                        <div class="image calculator">
-                            <img src="images/calculator.png" alt="">
-                        </div>
-                    </div>
 
-                    <div class="col-md-6">
-                        <h2 class="online-title text-uppercase title-second">
-                            Расчищайте стоимость онлайн трансляции  для Вашего мероприятия
-                        </h2>
-                        <p class="online-text">
-                            Мы провели 326 интернет - трансляций и 113 телемостов для разных компаний в 2015. Стоимость организации  онлайн трансляции мероприятия зависит от тарифа  съёмки.
-
-                        </p>
-                        <p class="online-text bold">
-                            Оставьте заявку для просчета стоимости
-                        </p>
-                        <div class="button text-center">
-                            <a class="btn popup-link" href="#popup2"> Рассчитать стоимость </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--.......................VIDEO.......................-->
-
-        <section class="video">
-            <div class="container">
-                <h2 class="video-title">
-                    ТРАНСЛЯЦИЯ ТРЕНИНГА ПО "ОРАТОРСКОМУ МАСТЕРСТВУ" КИЕВ, 2018 г
-                </h2>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-md-8">
-                        <div class="video-container">
-                            <iframe width="100%" height="523" src="https://www.youtube.com/embed/--spehyhaOg"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                        </div>
-                        <p class="video-text text-center">
-                            Массовое мероприятие в Киеве: 500 человек посетителей, 12 000 онлайн зрителей, 3 
-                            докладчика, 8 часовой марафон уникальных методик.
-                        </p>
-                        <p class="video-text text-center text-bottom">
-                            Наша команда организовывала онлайн - трансляцию, работала 2 оператора и 1 менеджер  эфира.
-                            Сделали дизайн для презентации и анимированные переходы для пауз во время  выступлений.
-                            Использовали собственный бронированный плеер и транслировали картинку с  нескольких камер на
-                            сайт.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4">
-                        <p class="cinema-text">
-                            В мероприятии было задействовано
-                        </p>
-                        <ul class="list-reset">
-                            <li>
-                                <div class="image">
-                                    <img src="images/cinema.png" alt="">
-                                </div>
-                                6 камер
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/specialist-user.png" alt="">
-                                </div>
-                                9 специалистов
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/users-group.png" alt="">
-                                </div>
-                                12 000 зрителей
-                            </li>
-                        </ul>
-                        <div class="rate">
-                            <p class="cinema-text">Это пример тарифа "Стандарт"</p>
-                            <p class="video-sub-text">Получите просчет стоимости  для вашего мероприятия</p>
+                        <div class="button-text text-center">
+                            <p>
+                                Скачайте полный прайс-лист и получите БЕСПЛАТНУЮ консультацию специалиста
+                            </p>
                             <div class="button">
-                                <a class="btn popup-link" href="#popup2"> Рассчитать стоимость </a>
+                                <a href="#popup" class="btn popup-link">
+                                    Скачать
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="gallery-slider">
+                            <div class="models-slider">
+
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
+                                </div>
+
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
+                                </div>
+
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--row-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-md-8">
-                        <div class="video-container">
-                            <iframe width="100%" height="523" src="https://www.youtube.com/embed/--spehyhaOg"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                        </div>
-                        <p class="video-text text-center">
-                            Массовое мероприятие в Киеве: 500 человек посетителей, 12 000 онлайн зрителей, 3 
-                            докладчика, 8 часовой марафон уникальных методик.
-                        </p>
-                        <p class="video-text text-center text-bottom">
-                            Наша команда организовывала онлайн - трансляцию, работала 2 оператора и 1 менеджер  эфира.
-                            Сделали дизайн для презентации и анимированные переходы для пауз во время  выступлений.
-                            Использовали собственный бронированный плеер и транслировали картинку с  нескольких камер на
-                            сайт.
-                        </p>
-                    </div>
+            </div>
+        </section>
 
-                    <div class="col-lg-4 col-md-4">
-                        <p class="cinema-text">
-                            В мероприятии было задействовано
-                        </p>
-                        <ul class="list-reset">
-                            <li>
-                                <div class="image">
-                                    <img src="images/cinema.png" alt="">
+        <!--............POSTS (столбы)..............-->
+
+        <section class="posts">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-lg-6">
+                        <div class="gallery-slider">
+                            <div class="models-slider">
+
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
                                 </div>
-                                6 камер
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/specialist-user.png" alt="">
+
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
                                 </div>
-                                9 специалистов
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/users-group.png" alt="">
+
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
                                 </div>
-                                12 000 зрителей
-                            </li>
-                        </ul>
-                        <div class="rate">
-                            <p class="cinema-text">Это пример тарифа "Стандарт"</p>
-                            <p class="video-sub-text">Получите просчет стоимости  для вашего мероприятия</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-sm-between flex-column">
+                        <div>
+                            <p class="title">
+                                СТОЛБЫ
+                            </p>
+
+                            <p>
+                                Столбики одно из важнейших железобетонных изделий использующееся при строительстве
+                                оградительных систем, характеризуются своей долговечностью, надёжностью и простотой
+                                монтажа.
+                            </p>
+                        </div>
+
+                        <div class="button-text text-center">
+                            <p>
+                                Скачайте полный прайс-лист и получите БЕСПЛАТНУЮ консультацию специалиста
+                            </p>
                             <div class="button">
-                                <a class="btn popup-link" href="#popup2"> Рассчитать стоимость </a>
+                                <a href="#popup" class="btn popup-link">
+                                    Скачать
+                                </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
-                <!--row-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-md-8">
-                        <div class="video-container">
-                            <iframe width="100%" height="523" src="https://www.youtube.com/embed/--spehyhaOg"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                        </div>
-                        <p class="video-text text-center">
-                            Массовое мероприятие в Киеве: 500 человек посетителей, 12 000 онлайн зрителей, 3 
-                            докладчика, 8 часовой марафон уникальных методик.
-                        </p>
-                        <p class="video-text text-center text-bottom last">
-                            Наша команда организовывала онлайн - трансляцию, работала 2 оператора и 1 менеджер  эфира.
-                            Сделали дизайн для презентации и анимированные переходы для пауз во время  выступлений.
-                            Использовали собственный бронированный плеер и транслировали картинку с  нескольких камер на
-                            сайт.
-                        </p>
-                    </div>
+            </div>
+        </section>
 
-                    <div class="col-lg-4 col-md-4">
-                        <p class="cinema-text">
-                            В мероприятии было задействовано
-                        </p>
-                        <ul class="list-reset">
-                            <li>
-                                <div class="image">
-                                    <img src="images/cinema.png" alt="">
-                                </div>
-                                6 камер
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/specialist-user.png" alt="">
-                                </div>
-                                9 специалистов
-                            </li>
-                            <li>
-                                <div class="image">
-                                    <img src="images/users-group.png" alt="">
-                                </div>
-                                12 000 зрителей
-                            </li>
-                        </ul>
-                        <div class="rate">
-                            <p class="cinema-text">Это пример тарифа "Стандарт"</p>
-                            <p class="video-sub-text">Получите просчет стоимости  для вашего мероприятия</p>
+        <!--............DECORATIVE (бетонные декоративные изделия)..............-->
+
+        <section class="decorative">
+            <div class="container">
+
+                <div class="row d-flex">
+                    <div class="col-lg-6 d-flex justify-content-sm-between flex-column">
+                        <div>
+                            <p class="title">
+                                БЕТОННЫЕ ДЕКОРАТИВНЫЕ ИЗДЕЛИЯ
+                            </p>
+
+                            <p>
+                                Декоративные изделия изготовлены из высокопрочного бетона и не боятся воздействия
+                                внешних атмосферных факторов, что станут отменным украшением придомовой территории,
+                                входной группы кафе, ресторана, парковой зоны на долгие годы.
+                            </p>
+
+                        </div>
+
+                        <div class="button-text text-center">
+                            <p>
+                                Скачайте полный прайс-лист и получите БЕСПЛАТНУЮ консультацию специалиста
+                            </p>
                             <div class="button">
-                                <a class="btn popup-link" href="#popup2"> Рассчитать стоимость </a>
+                                <a href="#popup" class="btn popup-link">
+                                    Скачать
+                                </a>
                             </div>
                         </div>
+
                     </div>
-                </div>
+                    <div class="col-lg-6">
+                        <div class="gallery-slider">
+                            <div class="models-slider">
 
-            </div>
-        </section>
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
+                                </div>
 
-        <!--.......................EQUIPMENT.......................-->
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
+                                </div>
 
-        <section class="equipment">
-            <div class="container">
-                <h2 class="equipment-title text-center">
-                    Технические возможности  и аппаратура нашей компании
-                </h2>
+                                <div class="gallery-image">
+                                    <img src="images/model1.png" alt="дверные кассеты">
+                                </div>
 
-                <div class="row">
-                    <div class="col-lg-4  col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/camera1.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            8  профессиональных  камер Sony EX-3
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/voice-recording.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            4 радиосистемы  Sennheiser EW 112 PG3 B
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/studio.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            Профессиональны свет 222929
-                        </p>
-                    </div>
-                </div>
-
-                <!--row-->
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/controls2.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            Программные пульты с платой видеозахвата
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/controls.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            Аппаратные пульты для видео
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/router.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            Можем обеспечить  собственным интернетом любую площадку
-                        </p>
-                    </div>
-                </div>
-
-                <!--row-->
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/controls2.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            Программные пульты с платой видеозахвата
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/icon.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            Трансляциям через наш плеер или youtube
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="image">
-                            <img src="images/monitor.png" alt="">
-                        </div>
-                        <p class="equipment-text">
-                            Можно смотреть на  телефоне, планшете или  компьютере
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!--.......................MONEY.......................-->
-
-        <div class="money">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-6 col-6 mb-4 mb-md-0">
-                        <div class="image">
-                            <img src="images/money.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 ">
-                        <h2 class="money-title">
-                            Зарабатывайте больше за счет  продажи онлайн - участия
-                        </h2>
-                        <p class="money-text">
-                            Мы расскажем Вам как организовать прямую  трансляцию, поможем принять онлайн-оплату,
-                            защитим  трансляцию от копирования и исключим  возможность перепродажи
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--.......................PACKAGE.......................-->
-
-        <section class="package">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-3 col-md-3">
-                        <div class="card action">
-                            <h2 class="package-title text-uppercase">
-                                Акционный
-                            </h2>
-                            <ul class="list-reset">
-                                <li>
-                                    <div class="image">
-                                        <img src="images/cinema.png" alt="">
-                                    </div>
-                                    1 камер
-                                </li>
-                                <li>
-                                    <div class="image">
-                                        <img src="images/specialist-user.png" alt="">
-                                    </div>
-                                    1 специалистов
-                                </li>
-                            </ul>
-                            <p class="package-text">
-                                Для бюджетных мероприятий стоимостью 5000 грн "Под ключ”
-                            </p>
-                            <div class="button text-center">
-                                <a class="btn popup-link" href="#popup2"> Заказать </a>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="card">
-                            <h2 class="package-title text-uppercase">
-                                Лайт
-                            </h2>
-                            <ul class="list-reset">
-                                <li>
-                                    <div class="image">
-                                        <img src="images/cinema.png" alt="">
-                                    </div>
-                                    3 камер
-                                </li>
-                                <li>
-                                    <div class="image">
-                                        <img src="images/specialist-user.png" alt="">
-                                    </div>
-                                    3 специалистов
-                                </li>
-                            </ul>
-                            <p class="package-text">
-                                Для бюджетных мероприятий стоимостью 5000 грн "Под ключ”
-                            </p>
-                            <div class="button text-center">
-                                <a class="btn popup-link" href="#popup2"> Заказать </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="card">
-                            <h2 class="package-title text-uppercase">
-                                Стандарт
-                            </h2>
-                            <ul class="list-reset">
-                                <li>
-                                    <div class="image">
-                                        <img src="images/cinema.png" alt="">
-                                    </div>
-                                    5 камер
-                                </li>
-                                <li>
-                                    <div class="image">
-                                        <img src="images/specialist-user.png" alt="">
-                                    </div>
-                                    5 специалистов
-                                </li>
-                            </ul>
-                            <p class="package-text">
-                                Для бюджетных мероприятий стоимостью 5000 грн "Под ключ”
-                            </p>
-                            <div class="button text-center">
-                                <a class="btn popup-link" href="#popup2"> Заказать </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="card">
-                            <h2 class="package-title text-uppercase">
-                                Премиум
-                            </h2>
-                            <ul class="list-reset">
-                                <li>
-                                    <div class="image">
-                                        <img src="images/cinema.png" alt="">
-                                    </div>
-                                    9 камер
-                                </li>
-                                <li>
-                                    <div class="image">
-                                        <img src="images/specialist-user.png" alt="">
-                                    </div>
-                                    9 специалистов
-                                </li>
-                            </ul>
-                            <p class="package-text">
-                                Для бюджетных мероприятий стоимостью 5000 грн "Под ключ”
-                            </p>
-                            <div class="button text-center">
-                                <a class="btn popup-link" href="#popup2"> Заказать </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!--.......................TEAM.......................-->
-        <div class="team">
-            <div class="container">
-                <h2 class="team-title">
-                    В нашей команде 10 штатных специалистов  и более 30 человек внештатных
-                </h2>
-                <div class="team-inner">
-                        <div class="image">
-                            <img src="images/team1.png" alt="">
-                        </div>
-                        <div class="image">
-                            <img src="images/team2.png" alt="">
-                        </div>
-                        <div class="image">
-                            <img src="images/team3.png" alt="">
-                        </div>
-                        <div class="image">
-                            <img src="images/team4.png" alt="">
-                        </div>
-                        <div class="image">
-                            <img src="images/team5.png" alt="">
-                        </div>
-                         <div class="image">
-                            <img src="images/team6.png" alt="">
-                        </div>
-                </div>
-            </div>
-        </div>
-
-        <!--.......................PARTNERS.......................-->
-
-        <div class="partners">
-            <div class="container">
-                <h2 class="partners-title">
-                    Компании которым мы настраивали онлайн - трансляцию
-                </h2>
-                <div class="partners-inner">
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="images/team7.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--.......................TRAINING.......................-->
-
-        <section class="training">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-6 align-self-end col-6 mb-4 mb-md-0">
-                        <div class="image">
-                            <img src="images/sony.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                         <h2 class="training-title">
-                             Подготовка к онлайн-трансляции
-                         </h2>
-                        <p class="training-text bold">
-                            Наша команда приезжает за 3 часа до начала трансляции и все  тестирует
-                        </p>
-                        <p class="training-text">
-                            Часто площадки бывают не подготовленные  для проведения трансляций, поэтому  менеджер вместе
-                            с инженером приезжают за  ранее и тестируют скорость подключения  интернета, настраивают
-                            свет и проверяют  микрофоны.
-                        </p>
-                        <p class="training-text">
-                            Закажите бесплатную консультацию нашего специалиста
-                        </p>
-                        <div class="button">
-                            <a class="btn popup-link" href="#popup2"> Заказать консультацию</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!--&lt;!&ndash;.......................SPECIALIST.......................&ndash;&gt;-->
+
+        <!--<section class="specialist">-->
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-lg-6">-->
+                        <!--<p class="title text-center">-->
+                            <!--ЗАКАЗАТЬ ВЫЕЗД СПЕЦИАЛИСТА НА ОБЪЕКТ ДЛЯ ПРОСЧЕТА СТОИМОТИ ПРЯМ СЕЙЧАС-->
+                        <!--</p>-->
+
+                        <!--<div class="holder">-->
+                            <!--<ul class="list-reset">-->
+                                <!--<li>-->
+                                    <!--<i class="far fa-check-circle"></i> Доставка 1 - 2 дня по Украине-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                    <!--<i class="far fa-check-circle"></i> Европейское качество материала-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                    <!--<i class="far fa-check-circle"></i> Гарантия 10 лет-->
+                                <!--</li>-->
+                            <!--</ul>-->
+                            <!--<div class="image">-->
+                                <!--<img src="images/man.png" alt="">-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-lg-6">-->
+                        <!--<h4 class="form-title text-center">-->
+                                    <!--<span id="customTextForm">-->
+                                    <!--Заполните форму ниже и получите консультацию на объекте-->
+                                    <!--</span>-->
+                        <!--</h4>-->
+
+                        <!--<form class="order-main">-->
+                            <!--<input placeholder="Имя" type="text" name="name" required>-->
+                            <!--<input placeholder="Телефон" type="tel" name="phone"-->
+                                   <!--class="phoneidcl" required>-->
+                            <!--<input name="order" type="hidden" value="Заполните форму и получите консультацию">-->
+                            <!--<button class="disbutt" disabled>-->
+                                <!--<span>Заказать</span>-->
+                            <!--</button>-->
+                        <!--</form>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!--&lt;!&ndash;.......................USE OF OUR PRODUCTS.......................&ndash;&gt;-->
+
+        <!--<section class="use">-->
+            <!--<div class="container">-->
+                <!--<h4 class="caption">-->
+                    <!--ПРЕИМУЩЕСТВО ИСПОЛЬЗОВАНИЯ НАШЕЙ ПРОДУКЦИИ-->
+                <!--</h4>-->
+                <!--<div class="row d-flex align-items-center">-->
+                    <!--<div class="col-lg-6">-->
+
+                        <!--&lt;!&ndash;Nav tabs&ndash;&gt;-->
+
+                        <!--<nav>-->
+                            <!--<div class="nav nav-tabs" id="nav-tab" role="tablist">-->
+                                <!--<a class="nav-item nav-link active" id="nav-mortgage-tab" data-toggle="tab"-->
+                                   <!--href="#nav-mortgage" role="tab" aria-controls="nav-mortgage" aria-selected="true">-->
+                                    <!--<div class="item">-->
+                                        <!--<span class="icon-mortgage-1"></span>-->
+                                        <!--<p>ЭКОНОМИЯ СВОБОДНОГО ПРОСТРАНСТВА</p>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                                <!--<a class="nav-item nav-link" id="nav-reliability-tab" data-toggle="tab"-->
+                                   <!--href="#nav-reliability" role="tab" aria-controls="nav-reliability"-->
+                                   <!--aria-selected="false">-->
+                                    <!--<div class="item">-->
+                                        <!--<span class="icon-reliability"></span>-->
+                                        <!--<p>НАДЁЖНОСТЬ И ФУНКЦИОНАЛЬНОСТЬ КОНСТРУКЦИИ</p>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                                <!--<a class="nav-item nav-link" id="nav-blueprint-tab" data-toggle="tab"-->
+                                   <!--href="#nav-blueprint" role="tab" aria-controls="nav-blueprint" aria-selected="false">-->
+                                    <!--<div class="item">-->
+                                        <!--<span class="icon-blueprint"></span>-->
+                                        <!--<p>ПРОСТОЕ ЗОНИРОВАНИЕ ПОМЕЩЕНИЯ</p>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                                <!--<a class="nav-item nav-link" id="nav-check-in-tab" data-toggle="tab"-->
+                                   <!--href="#nav-check-in" role="tab" aria-controls="nav-check-in" aria-selected="false">-->
+                                    <!--<div class="item">-->
+                                        <!--<span class="icon-check-in"></span>-->
+                                        <!--<p>ДЛИТЕЛЬНЫЙ СРОК ЭКСПЛУАТАЦИИ</p>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                        <!--</nav>-->
+
+                    <!--</div>-->
+                    <!--<div class="col-lg-6">-->
+
+                        <!--&lt;!&ndash; Tab panes &ndash;&gt;-->
+
+                        <!--<div class="tab-content" id="nav-tabContent">-->
+                            <!--<div class="tab-pane fade show active" id="nav-mortgage" role="tabpanel"-->
+                                 <!--aria-labelledby="nav-mortgage-tab">-->
+                                <!--<div class="image-holder">-->
+                                    <!--<div class="image-big">-->
+                                        <!--<img src="images/caset1.png" alt="">-->
+                                    <!--</div>-->
+                                    <!--<div class="small">-->
+                                        <!--<div class="image-small">-->
+                                            <!--<img src="images/caset2.png" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="image-small middle">-->
+                                            <!--<img src="images/caset3.png" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="image-small">-->
+                                            <!--<img src="images/caset4.png" alt="">-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="tab-pane fade" id="nav-reliability" role="tabpanel"-->
+                                 <!--aria-labelledby="nav-reliability-tab">-->
+                                <!--<div class="image-holder">-->
+                                    <!--<div class="image-big">-->
+                                        <!--<img src="images/caset2.png" alt="">-->
+                                    <!--</div>-->
+                                    <!--<div class="small">-->
+                                        <!--<div class="image-small">-->
+                                            <!--<img src="images/caset3.png" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="image-small middle">-->
+                                            <!--<img src="images/caset4.png" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="image-small">-->
+                                            <!--<img src="images/caset1.png" alt="">-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="tab-pane fade" id="nav-blueprint" role="tabpanel"-->
+                                 <!--aria-labelledby="nav-blueprint-tab">-->
+                                <!--<div class="image-holder">-->
+                                    <!--<div class="image-big">-->
+                                        <!--<img src="images/caset3.png" alt="">-->
+                                    <!--</div>-->
+                                    <!--<div class="small">-->
+                                        <!--<div class="image-small">-->
+                                            <!--<img src="images/caset4.png" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="image-small middle">-->
+                                            <!--<img src="images/caset1.png" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="image-small">-->
+                                            <!--<img src="images/caset2.png" alt="">-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="tab-pane fade" id="nav-check-in" role="tabpanel"-->
+                                 <!--aria-labelledby="nav-check-in-tab">-->
+                                <!--<div class="image-holder">-->
+                                    <!--<div class="image-big">-->
+                                        <!--<img src="images/caset4.png" alt="">-->
+                                    <!--</div>-->
+                                    <!--<div class="small">-->
+                                        <!--<div class="image-small">-->
+                                            <!--<img src="images/caset1.png" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="image-small middle">-->
+                                            <!--<img src="images/caset2.png" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="image-small">-->
+                                            <!--<img src="images/caset3.png" alt="">-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!--&lt;!&ndash;.......................COOPERATION.......................&ndash;&gt;-->
+
+        <!--<section class="cooperation">-->
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-lg-5">-->
+                        <!--<p class="title">-->
+                            <!--ПРИГЛАШАЕМ К СОТРУДНИЧЕСТВУ-->
+                        <!--<p>-->
+                        <!--<p class="text">-->
+                            <!--Наша компания приглашает к сотрудничеству aрхитекторов, дизайнеров, прорабов-->
+                        <!--</p>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-lg-7">-->
+                        <!--<form class="order-main">-->
+                            <!--<h4 class="form-title">-->
+                                    <!--<span id="customTextForm2">-->
+                                    <!--<span class="block">Заполните форму и получите</span> коммерческое предложение в течении 1 часа-->
+                                    <!--</span>-->
+                            <!--</h4>-->
+                            <!--<input placeholder="Имя" type="text" name="name" required>-->
+                            <!--<input id="phone" placeholder="Телефон" type="tel" name="phone"-->
+                                   <!--class="phoneidcl" required>-->
+                            <!--<input name="order" type="hidden"-->
+                                   <!--value="Заполните форму и получите коммерческое предложение">-->
+                            <!--<button class="disbutt" disabled>-->
+                                <!--<span>Получить предложение</span>-->
+                            <!--</button>-->
+                        <!--</form>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!--&lt;!&ndash;.......................GALLERY.......................&ndash;&gt;-->
+
+        <!--<section class="gallery" id="gallery">-->
+            <!--<div class="container">-->
+                <!--<h4 class="caption">-->
+                    <!--ГАЛЕРЕЯ ВЫПОЛНЕННЫХ РАБОТ-->
+                <!--</h4>-->
+
+                <!--<div class="row popup-gallery">-->
+                    <!--<div class="col-lg-4 col-6">-->
+                        <!--<a href="images/gallery.jpg" title="door"><img src="images/gallery.jpg" alt="двери"></a>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-lg-4 col-6">-->
+                        <!--<a href="images/gallery.jpg" title="door"><img src="images/gallery.jpg" alt="двери"></a>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-lg-4 col-6">-->
+                        <!--<a href="images/gallery.jpg" title="door"><img src="images/gallery.jpg" alt="двери"></a>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-lg-4 col-6">-->
+                        <!--<a href="images/gallery.jpg" title="door"><img src="images/gallery.jpg" alt="двери"></a>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-lg-4 col-6">-->
+                        <!--<a href="images/gallery.jpg" title="door"><img src="images/gallery.jpg" alt="двери"></a>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-lg-4 col-6">-->
+                        <!--<a href="images/gallery.jpg" title="door"><img src="images/gallery.jpg" alt="двери"></a>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!--&lt;!&ndash;.......................REVIEWS.......................&ndash;&gt;-->
+
+        <!--<section class="reviews">-->
+            <!--<div class="container">-->
+
+                <!--<h4 class="caption">-->
+                    <!--ОТЗЫВЫ НАШИХ КЛИЕНТОВ-->
+                <!--</h4>-->
+
+                <!--<div class="reviews-slider">-->
+
+                    <!--<div class="reviews-body">-->
+                        <!--<div class="reviews-title">-->
+                            <!--<div class="image">-->
+                                <!--<img src="images/foto1.png" alt="клиент">-->
+                            <!--</div>-->
+                            <!--<div class="title">-->
+                                <!--<p class="name">Балицкий Александр</p>-->
+                                <!--<p class="town">Киев</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<p class="reviews-text">-->
+                            <!--Ясность нашей позиции очевидна: глубокий уровень погружения предопределяет высокую-->
+                            <!--востребованность глубокомысленных рассуждений. А также базовые сценарии поведения-->
+                            <!--пользователей, которые представляют собой яркий пример континентально-европейского-->
+                        <!--</p>-->
+                    <!--</div>-->
+
+                    <!--<div class="reviews-body">-->
+                        <!--<div class="reviews-title">-->
+                            <!--<div class="image">-->
+                                <!--<img src="images/foto2.png" alt="клиент">-->
+                            <!--</div>-->
+                            <!--<div class="title">-->
+                                <!--<p class="name">Бондар Виталия</p>-->
+                                <!--<p class="town">Днепр</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<p class="reviews-text">-->
+                            <!--Ясность нашей позиции очевидна: глубокий уровень погружения предопределяет высокую-->
+                            <!--востребованность глубокомысленных рассуждений. А также базовые сценарии поведения-->
+                            <!--пользователей, которые представляют собой яркий пример континентально-европейского-->
+                        <!--</p>-->
+                    <!--</div>-->
+
+                    <!--<div class="reviews-body">-->
+                        <!--<div class="reviews-title">-->
+                            <!--<div class="image">-->
+                                <!--<img src="images/foto3.png" alt="клиент">-->
+                            <!--</div>-->
+                            <!--<div class="title">-->
+                                <!--<p class="name">Король Юрий</p>-->
+                                <!--<p class="town">Киев</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<p class="reviews-text">-->
+                            <!--Ясность нашей позиции очевидна: глубокий уровень погружения предопределяет высокую-->
+                            <!--востребованность глубокомысленных рассуждений. А также базовые сценарии поведения-->
+                            <!--пользователей, которые представляют собой яркий пример континентально-европейского-->
+                        <!--</p>-->
+                    <!--</div>-->
+
+                    <!--<div class="reviews-body">-->
+                        <!--<div class="reviews-title">-->
+                            <!--<div class="image">-->
+                                <!--<img src="images/foto1.png" alt="клиент">-->
+                            <!--</div>-->
+                            <!--<div class="title">-->
+                                <!--<p class="name">Балицкий Александр</p>-->
+                                <!--<p class="town">Киев</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<p class="reviews-text">-->
+                            <!--Ясность нашей позиции очевидна: глубокий уровень погружения предопределяет высокую-->
+                            <!--востребованность глубокомысленных рассуждений. А также базовые сценарии поведения-->
+                            <!--пользователей, которые представляют собой яркий пример континентально-европейского-->
+                        <!--</p>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!--&lt;!&ndash;.......................CERTIFICATES.......................&ndash;&gt;-->
+
+        <!--<section class="certificates">-->
+            <!--<div class="container">-->
+                <!--<h4 class="caption">-->
+                    <!--СЕРТИФИКАТЫ-->
+                <!--</h4>-->
+                <!--<div class="gallery-slider">-->
+                    <!--<div class="certificates-slider">-->
+                        <!--<div class="gallery-image">-->
+                            <!--<img src="images/certificate.png" alt="сертификат">-->
+                        <!--</div>-->
+
+                        <!--<div class="gallery-image">-->
+                            <!--<img src="images/certificate.png" alt="сертификат">-->
+                        <!--</div>-->
+
+                        <!--<div class="gallery-image">-->
+                            <!--<img src="images/certificate.png" alt="сертификат">-->
+                        <!--</div>-->
+
+                        <!--<div class="gallery-image">-->
+                            <!--<img src="images/certificate.png" alt="сертификат">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            <!--</div>-->
+        <!--</section>-->
     </main>
+
     <!--.......................FOOTER.......................-->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-inner">
 
-                <div class="contact">
-                    <a href="tel:+380639553368" class="phone"> +38 (063) 955 33 68 </a>
-                    <a href="tel:+380639553368" class="phone"> +38 (063) 955 33 68 </a>
-                    <a href="mailto:emailadress@strim.ua" class="mail">emailadress@strim.ua</a>
-                    <div class="social-icons">
-                        <a href="#" class="instagram">
-                            <span class="image">
-                                <img src="images/instagram.png" alt="">
-                            </span>
-                        </a>
-                        <a href="#" class="facebook">
-                            <span class="image">
-                                <img src="images/facebook.png" alt="">
-                            </span>
-                        </a>
-                        <a href="#" class="youtube">
-                            <span class="image">
-                                <img src="images/youtube.png" alt="">
-                            </span>
-                        </a>
-                    </div>
-                </div>
+    <!--<footer class="footer" id="contact">-->
+        <!--<div class="container">-->
+            <!--<h4 class="caption">-->
+                <!--КОНТАКТЫ-->
+            <!--</h4>-->
+            <!--<div class="row d-flex align-items-center">-->
+                <!--<div class="col-lg-2">-->
+                    <!--<div class="contact">-->
+                        <!--<div class="contact-block">-->
+                            <!--<p class="contact-title">-->
+                                <!--Телефоны:-->
+                            <!--</p>-->
+                            <!--<p class="contact-text">-->
+                                <!--<a href="tel:+380638442311" class="phone">+380 63 844 23 11 </a>-->
+                                <!--<a href="tel:+380668443211" class="phone">+380 66 844 32 11 </a>-->
+                            <!--</p>-->
+                        <!--</div>-->
+                        <!--<div class="contact-block middle">-->
+                            <!--<p class="contact-title">-->
+                                <!--Почта:-->
+                            <!--</p>-->
+                            <!--<p class="contact-text">-->
+                                <!--<a href="mailto:iap@info.com.ua"-->
+                                   <!--class="phone">iap@info.com.ua</a>-->
+                            <!--</p>-->
+                        <!--</div>-->
+                        <!--<div class="contact-block">-->
+                            <!--<p class="contact-title">-->
+                                <!--Адрес:-->
+                            <!--</p>-->
+                            <!--<p class="contact-text">-->
+                                <!--Киев, Банковская 65а-->
+                            <!--</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
 
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5335.057346303622!2d30.485790767551773!3d50.45964072690475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x40d4ce7976bee27b%3A0x1d3e315c9ebba01c!2z0JvRg9C6J9GP0L3RltCy0YHRjNC60LA!3m2!1d50.461178999999994!2d30.483670999999998!4m5!1s0x40d4ce65bb637e0d%3A0x15a04ce32f6333ef!2z0JHQtdGF0YLQtdGA0LXQstGB0LrQuNC5INC_0LXRgC4sIDE00JUsINCa0LjQtdCyLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwMjAwMA!3m2!1d50.459371499999996!2d30.4965899!5e0!3m2!1sru!2sua!4v1574811075804!5m2!1sru!2sua"
-                            width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
+                <!--<div class="col-lg-6">-->
+                    <!--<div class="map">-->
+                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5335.057346303622!2d30.485790767551773!3d50.45964072690475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x40d4ce7976bee27b%3A0x1d3e315c9ebba01c!2z0JvRg9C6J9GP0L3RltCy0YHRjNC60LA!3m2!1d50.461178999999994!2d30.483670999999998!4m5!1s0x40d4ce65bb637e0d%3A0x15a04ce32f6333ef!2z0JHQtdGF0YLQtdGA0LXQstGB0LrQuNC5INC_0LXRgC4sIDE00JUsINCa0LjQtdCyLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwMjAwMA!3m2!1d50.459371499999996!2d30.4965899!5e0!3m2!1sru!2sua!4v1574811075804!5m2!1sru!2sua"-->
+                                <!--width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4">-->
+                    <!--<form class="order-main">-->
+                        <!--<h4 class="form-title">-->
+                        <!--<span id="customTextForm3">-->
+                        <!--Остались вопросы?-->
+                        <!--</span>-->
+                        <!--</h4>-->
+                        <!--<input placeholder="Имя" type="text" name="name" required>-->
+                        <!--<input placeholder="Телефон" type="tel" name="phone"-->
+                               <!--class="phoneidcl" required>-->
+                        <!--<input name="order" type="hidden" value="Остались вопросы?">-->
+                        <!--<button class="disbutt" disabled>-->
+                            <!--<span>Заказать звонок</span>-->
+                        <!--</button>-->
+                    <!--</form>-->
+                <!--</div>-->
+            <!--</div>-->
 
-                <form class="order-main">
-                    <h4 class="form-title">
-                        Остались вопросы?
-                    </h4>
-                    <input placeholder="Имя" type="text" name="name" required>
-                    <input placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
-                    <input name="order" type="hidden" value="Остались вопросы?">
-                    <textarea placeholder="Введите комментарий"></textarea>
-                    <button class="btn disbutt" disabled>
-                        <span>Задать вопрос</span>
-                    </button>
-                </form>
-            </div>
+            <!--<div class="footer-bottom">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-lg-4">-->
+                        <!--<div class="social">-->
+                            <!--<a href="#"><span class="icon-facebook"></span></a>-->
+                            <!--<a href="#"> <span class="icon-inst"></span></a>-->
+                            <!--<a href="#"><span class="icon-youtube"></span></a>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
-        </div>
-    </footer>
-
-    <!--/////pop-up-->
-    <div id="popup" class="mfp-hide popup">
-        <form class="order-main">
-            <h4 class="form-title text-center">
-                <span id="customTextForm">
-                    Заполните форму и получите  бесплатно чек-лист на почту
-                </span>
-            </h4>
-            <label for="name">Укажите ваше имя</label>
-            <input id="name" placeholder="Имя" type="text" name="name" required>
-
-            <label for="phone">Укажите ваш телефон</label>
-            <input id="phone" placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
-
-            <label for="email">Укажите ваш email</label>
-            <input id="email" placeholder="E-mail" type="text" name="email" required>
-            <input name="order" type="hidden" id="input_order">
-
-            <button class="btn disbutt" disabled>
-                <span>ОТПРАВИТЬ</span>
-            </button>
-        </form>
-    </div>
-
-    <div id="popup2" class="mfp-hide popup">
-        <form class="order-main">
-            <h4 class="form-title text-center">
-                                    <span id="customTextForm2">
-                                        Заполните форму и получите  бесплатно чек-лист на почту
-                                    </span>
-            </h4>
-            <label for="name2">Укажите ваше имя</label>
-            <input id="name2" placeholder="Имя" type="text" name="name" required>
-
-            <label for="phone2">Укажите ваш телефон</label>
-            <input id="phone2" placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>
-            <input name="order" type="hidden" id="input_order2">
-            <!--<label for="email2">Укажите ваш email</label>-->
-            <!--<input id="email2" placeholder="E-mail" type="text" name="email" required>-->
-
-            <button class="btn disbutt" disabled>
-                <span>ОТПРАВИТЬ</span>
-            </button>
-        </form>
-    </div>
-    <!--/////pop-up end-->
-
+                    <!--<div class="offset-lg-2 col-lg-6">-->
+                        <!--<div class="logo-info">-->
+                            <!--<div class="logo">-->
+                                <!--<a href="#">-->
+                                    <!--<img class="logo" src="images/logo.png" alt="logo">-->
+                                <!--</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</footer>-->
+    <!--<div class="devgen p-1 text-center">-->
+        <!--<a href="http://GenerationLeadStudio.com" target="_blank"> <i class="far fa-copyright"></i> Developed by-->
+            <!--GenerationLeadStudio</a>-->
+    <!--</div>-->
 </div>
+
+<!--/////pop-up//////-->
+
+<!--<div id="popup" class="mfp-hide popup">-->
+    <!--<div class="container">-->
+
+        <!--<div class="logo">-->
+            <!--<a href="#">-->
+                <!--<img class="logo" src="images/logo.png" alt="logo">-->
+            <!--</a>-->
+        <!--</div>-->
+
+        <!--<form class="order-main2">-->
+            <!--<h4 class="form-title">-->
+                <!--<span id="customTextForm4">-->
+                    <!--Заполните форму и с вами свяжется наш специалист в течении 15 минут для БЕСПЛАТНОЙ консультации-->
+                <!--</span>-->
+            <!--</h4>-->
+            <!--<input placeholder="Имя" type="text" name="name" required>-->
+            <!--<input placeholder="Телефон" type="tel" name="phone" class="phoneidcl" required>-->
+            <!--<input name="order" type="hidden" id="input_order">-->
+            <!--<button class="disbutt" disabled>-->
+                <!--<span>Получить консультацию </span>-->
+            <!--</button>-->
+            <!--<p class="form-text">Подписывайтесь на наши социальные сети и будьте всегда в курсе новостей и новинок нашей-->
+                <!--компании</p>-->
+            <!--<div class="social">-->
+                <!--<a href="#"><span class="icon-facebook"></span></a>-->
+                <!--<a href="#"> <span class="icon-inst"></span></a>-->
+            <!--</div>-->
+        <!--</form>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--pop-up end-->
+
 
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-<!-- Popper -->
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"-->
-        <!--integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"-->
-        <!--crossorigin="anonymous"></script>-->
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
 <!-- Fontawesome -->
 <script defer src="js/all.js"></script>
 <!-- Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
-<!-- owl carousel JS -->
-<script src="js/owl.carousel.min.js"></script>
 <!-- Slick -->
 <script src="js/slick.min.js"></script>
 <!-- Magnific Popup core JS file -->
 <script src="js/jquery.magnific-popup.min.js"></script>
 <!-- Input Mask -->
 <script src="js/jquery.inputmask.bundle.min.js"></script>
+<!-- Page Scroll -->
+<script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+<!--&lt;!&ndash;AOS &ndash;&gt;-->
+<!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>-->
+<!--<script>-->
+<!--AOS.init();-->
+<!--</script>-->
 <!-- Main JS -->
 <script src="js/main.js"></script>
 </body>
